@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [ExecuteInEditMode]
-public class CameraPerspectiveSettings : MonoBehaviour
+public class CameraPerspectiveSettings_old : MonoBehaviour
 {
     public GameObject cameraTarget;
     public enum CameraOptions { TopDown, HalfAngle, SideView, Custom};
