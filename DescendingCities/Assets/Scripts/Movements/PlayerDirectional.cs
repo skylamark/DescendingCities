@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerDirectional : MonoBehaviour {
     public GameObject playerCharacterObject;
@@ -10,15 +11,24 @@ public class PlayerDirectional : MonoBehaviour {
     public bool died = false;
     public JoystickController joystick;
 
+  
+    
+
     // Use this for initialization
+    
     void Start () {
-		
+        Load();
 	}
 	
 	// Update is called once per frame
 	void Update () {
         if (died) return;
-         Move(); 
+         Move();
+    }
+
+    private void OnApplicationQuit()
+    {
+        Save();
     }
 
     private void Move()
@@ -50,6 +60,8 @@ public class PlayerDirectional : MonoBehaviour {
         transform.LookAt(this.transform.position + direction);
         if (direction != Vector3.zero)
         {
+          
+            
             this.transform.position += this.transform.forward * speed*Time.deltaTime;
         }
     }
@@ -61,5 +73,29 @@ public class PlayerDirectional : MonoBehaviour {
             direction.Normalize();
 
         return direction;
+    }
+
+    public void Save()
+    {
+        SaveLoad.SaveGame(this);
+    }
+    public void Load()
+    {
+       GameData gameData = SaveLoad.LoadGame();
+        if (gameData == null)
+        {
+            return;
+        }
+        else
+        {
+            speed = gameData.Player.Speed;
+            died = gameData.Player.Died;
+            Vector3 pos = new Vector3(gameData.Player.PositionX,
+                                      gameData.Player.PositionY,
+                                      gameData.Player.PositionZ);
+            this.transform.position = pos;
+           
+        }
+
     }
 }
