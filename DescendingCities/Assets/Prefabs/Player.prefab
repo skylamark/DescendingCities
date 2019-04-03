@@ -442,7 +442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c95f3b43e2ffb91459802800d7fe3506, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCharacterObject: {fileID: 0}
+  playerCharacterObject: {fileID: 8687758280393374230}
   speed: 5
   died: 0
   joystick: {fileID: 0}
