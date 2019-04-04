@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-[CustomEditor(typeof(BuildingGenerator))]
+/*[CustomEditor(typeof(BuildingGeneratorz))]
 public class BuildingGeneratorController : Editor
 {
     public bool showHouses;
@@ -39,4 +39,4 @@ public class BuildingGeneratorController : Editor
     }
 
 
-}
+}*/
