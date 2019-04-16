@@ -17,13 +17,18 @@ public class PlayerDirectional : MonoBehaviour {
     // Use this for initialization
     
     void Start () {
-        Load();
+        //Load();
 	}
 	
 	// Update is called once per frame
 	void Update () {
         if (died) return;
          Move();
+        if (Time.time > 5)
+        {
+            PlayerManagement.giveTask();
+           
+        }
     }
 
     private void OnApplicationQuit()
@@ -98,4 +103,5 @@ public class PlayerDirectional : MonoBehaviour {
         }
 
     }
+  
 }

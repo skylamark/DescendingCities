@@ -13,12 +13,14 @@ public class JoystickController : MonoBehaviour, IDragHandler, IPointerUpHandler
 
     public void Start()
     {
+        
         backgroundImage = GetComponent<Image>();
         joystickImage = transform.GetChild(0).GetComponent<Image>();
     }
 
     public virtual void OnDrag(PointerEventData pointerEventData)
     {
+    
         Vector2 position;
 
         if (RectTransformUtility.ScreenPointToLocalPointInRectangle(backgroundImage.rectTransform
