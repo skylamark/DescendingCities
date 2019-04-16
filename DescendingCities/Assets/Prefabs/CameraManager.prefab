@@ -292,8 +292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4b330f8d5bd34d4f9be3eca1e98556e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  followPlayerSetting: 1
-  cameraAngle: 0
+  followPlayerSetting: 0
+  cameraAngle: 1
   playerObj: {fileID: 0}
   cameras:
   - {fileID: 0}
@@ -302,3 +302,6 @@ MonoBehaviour:
   - {fileID: 5664987547634311122}
   - {fileID: 5664987548090171393}
   - {fileID: 5664987548086115799}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
