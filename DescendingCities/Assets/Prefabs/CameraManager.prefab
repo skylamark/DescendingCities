@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5664987547634311125}
   - component: {fileID: 5664987547634311122}
   - component: {fileID: 5664987547634311123}
+  - component: {fileID: 1795092372}
   m_Layer: 0
   m_Name: Camera20Fixed
   m_TagString: MainCamera
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5664987547634311120}
   m_LocalRotation: {x: 0.08715578, y: 0, z: 0, w: 0.9961947}
-  m_LocalPosition: {x: 0, y: 2.5, z: -10}
+  m_LocalPosition: {x: 0, y: 5, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5664987549354275283}
@@ -55,7 +56,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 100
   field of view: 60
   orthographic: 1
   orthographic size: 5
@@ -82,6 +83,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5664987547634311120}
   m_Enabled: 1
+--- !u!114 &1795092372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5664987547634311120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9556404c53addb5418e626ec39d0b367, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effect: {fileID: 2100000, guid: 7c6f7b5945c7fa84ca652f5457e0f450, type: 2}
 --- !u!1 &5664987548086115797
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,6 +107,7 @@ GameObject:
   - component: {fileID: 5664987548086115798}
   - component: {fileID: 5664987548086115799}
   - component: {fileID: 5664987548086115796}
+  - component: {fileID: 1325285573}
   m_Layer: 0
   m_Name: Camera90Fixed
   m_TagString: Untagged
@@ -137,7 +152,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 30
   field of view: 60
   orthographic: 1
   orthographic size: 5
@@ -164,6 +179,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5664987548086115797}
   m_Enabled: 1
+--- !u!114 &1325285573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5664987548086115797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9556404c53addb5418e626ec39d0b367, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effect: {fileID: 2100000, guid: 7c6f7b5945c7fa84ca652f5457e0f450, type: 2}
 --- !u!1 &5664987548090171407
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,6 +203,7 @@ GameObject:
   - component: {fileID: 5664987548090171392}
   - component: {fileID: 5664987548090171393}
   - component: {fileID: 5664987548090171406}
+  - component: {fileID: 223589291}
   m_Layer: 0
   m_Name: Camera45Fixed
   m_TagString: Untagged
@@ -219,9 +248,9 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 50
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
   m_Depth: 0
   m_CullingMask:
@@ -246,6 +275,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5664987548090171407}
   m_Enabled: 1
+--- !u!114 &223589291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5664987548090171407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9556404c53addb5418e626ec39d0b367, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effect: {fileID: 2100000, guid: 7c6f7b5945c7fa84ca652f5457e0f450, type: 2}
 --- !u!1 &5664987549354275281
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,8 +334,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4b330f8d5bd34d4f9be3eca1e98556e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  followPlayerSetting: 1
-  cameraAngle: 0
+  followPlayerSetting: 0
+  cameraAngle: 1
   playerObj: {fileID: 0}
   cameras:
   - {fileID: 0}
