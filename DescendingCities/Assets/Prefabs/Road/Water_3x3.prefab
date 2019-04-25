@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1384620793311385690}
   - component: {fileID: 3955447007401921536}
   - component: {fileID: 3927751173606114996}
-  - component: {fileID: 4624529109025102976}
   m_Layer: 0
   m_Name: Water_3x3
   m_TagString: Untagged
@@ -90,21 +89,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!208 &4624529109025102976
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 461290721375999416}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.5, y: 3, z: 0.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 2.5, z: 0}
-  m_TimeToStationary: 0.5
+  m_Size: {x: 1, y: 9, z: 1}
+  m_Center: {x: 0, y: 3.5, z: 0}

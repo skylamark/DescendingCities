@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 8173116309177389848}
   - component: {fileID: 4012587746796816328}
   - component: {fileID: 6484955737657264214}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sidewalk (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &6503261141077407497
 Transform:
@@ -103,12 +103,12 @@ GameObject:
   - component: {fileID: 765273093099466561}
   - component: {fileID: 2293871472908962033}
   - component: {fileID: 223100377668651545}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Road_Crossing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &3381329741167285637
 Transform:
@@ -198,12 +198,12 @@ GameObject:
   - component: {fileID: 7265800589948409555}
   - component: {fileID: 9156328691669112165}
   - component: {fileID: 559940704270484863}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sidewalk (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2660490990427652659
 Transform:
@@ -289,12 +289,12 @@ GameObject:
   - component: {fileID: 6075717855843150028}
   - component: {fileID: 8676351213727603122}
   - component: {fileID: 8504350016791822924}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sidewalk (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4384721500455578336
 Transform:
@@ -380,12 +380,12 @@ GameObject:
   - component: {fileID: 6006269715044743326}
   - component: {fileID: 2793571180065881883}
   - component: {fileID: 8482000368124092677}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sidewalk (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1211500365489822173
 Transform:

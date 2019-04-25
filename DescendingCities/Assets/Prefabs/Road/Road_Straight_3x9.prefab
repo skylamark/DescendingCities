@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 310172359497865903}
   - component: {fileID: 7517304520110191129}
   - component: {fileID: 2370770220409601255}
-  m_Layer: 0
-  m_Name: Road_3x9
+  m_Layer: 8
+  m_Name: Road_Straight_3x9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1876591122873880608
 Transform:
@@ -105,12 +105,12 @@ GameObject:
   - component: {fileID: 50453119250947241}
   - component: {fileID: 5180795504021921631}
   - component: {fileID: 8110158124082023286}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sidewalk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &3016664574254189947
 Transform:
@@ -196,12 +196,12 @@ GameObject:
   - component: {fileID: 3907782109791588750}
   - component: {fileID: 6515918198481404124}
   - component: {fileID: 8397959842052759431}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sidewalk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &5195387500728343484
 Transform:
