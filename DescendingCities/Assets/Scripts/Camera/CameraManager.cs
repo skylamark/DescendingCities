@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class CameraManager : MonoBehaviour
@@ -14,6 +15,8 @@ public class CameraManager : MonoBehaviour
     private bool update;
     private FollowPlayer privateFollow;
     private CameraAngle privateAngle;
+    public Dropdown followDropdown;
+    public Dropdown angleDropdown;
 
     // Start is called before the first frame update
     void Start()
@@ -121,5 +124,44 @@ public class CameraManager : MonoBehaviour
     private void LateUpdate()
     {
         transform.position = playerObj.transform.position;
+    }
+
+    // DropDown Window functions for playtest purposes
+
+    public void SetFollowStateWithButton()
+    {
+        switch (followDropdown.value)
+        {
+            case 0:
+                followPlayerSetting = FollowPlayer.RotateWithPlayer;
+                break;
+            case 1:
+                followPlayerSetting = FollowPlayer.FixedWorldAngle;
+                break;
+            default:
+                followPlayerSetting = FollowPlayer.RotateWithPlayer;
+                break;
+        }
+
+    }
+
+    public void SetAngleStateWithButton()
+    {
+        switch (angleDropdown.value)
+        {
+            case 0:
+                cameraAngle = CameraAngle.Sideview;
+                break;
+            case 1:
+                cameraAngle = CameraAngle.HalfWay;
+                break;
+            case 2:
+                cameraAngle = CameraAngle.TopDown;
+                break;
+            default:
+                cameraAngle = CameraAngle.HalfWay;
+                break;
+        }
+
     }
 }
