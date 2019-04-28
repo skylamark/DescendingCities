@@ -2,65 +2,68 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class DialogueSystem: MonoBehaviour {
+public class DialogueSystem : MonoBehaviour
+{
 
     public Text nameText;
     public Text dialogueText;
 
-
+    public GameObject dialogueGUI;
     public Transform dialogueBoxGUI;
 
     public float letterDelay = 0.1f;
     public float letterMultiplier = 0.5f;
 
-    public KeyCode DialogueInput = KeyCode.F;
+    
 
     public string Names;
-    public string Line;
 
+   
     public string[] dialogueLines;
 
     public bool letterIsMultiplied = false;
     public bool dialogueActive = false;
     public bool dialogueEnded = false;
     public bool outOfRange = true;
-    int currentDialogueIndex = 0;
 
     public AudioClip audioClip;
     AudioSource audioSource;
+
+  
 
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
         dialogueText.text = "";
-        currentDialogueIndex = 0;
-
     }
 
     void Update()
     {
-
+        if (outOfRange)
+        {
+            dialogueGUI.SetActive(false);
+            
+        }
     }
 
     public void EnterRangeOfNPC()
     {
         outOfRange = false;
-        
+        dialogueGUI.SetActive(true);
         if (dialogueActive == true)
         {
-           
+            dialogueGUI.SetActive(false);
         }
     }
 
     public void NPCName()
     {
-        dialogueActive = false;
         outOfRange = false;
         dialogueBoxGUI.gameObject.SetActive(true);
         nameText.text = Names;
-        dialogueText.text = Line;
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetMouseButtonDown(0)) ;
         {
             if (!dialogueActive)
             {
@@ -73,10 +76,12 @@ public class DialogueSystem: MonoBehaviour {
 
     private IEnumerator StartDialogue()
     {
+       
         if (outOfRange == false)
         {
+            int currentDialogueIndex = 0;
             int dialogueLength = dialogueLines.Length;
-            currentDialogueIndex = 0;
+            
 
             while (currentDialogueIndex < dialogueLength || !letterIsMultiplied)
             {
@@ -95,7 +100,7 @@ public class DialogueSystem: MonoBehaviour {
 
             while (true)
             {
-                if (Input.GetKeyDown(DialogueInput) && dialogueEnded == false)
+                if (Input.GetMouseButtonDown(0) && dialogueEnded == false)
                 {
                     break;
                 }
@@ -123,9 +128,9 @@ public class DialogueSystem: MonoBehaviour {
 
                 if (currentCharacterIndex < stringLength)
                 {
-                    if (Input.GetKey(DialogueInput))
+                    if (Input.GetMouseButtonDown(0))
                     {
-                        yield return new WaitForSeconds(50*letterDelay * letterMultiplier);
+                        yield return new WaitForSeconds(letterDelay * letterMultiplier);
 
                         if (audioClip) audioSource.PlayOneShot(audioClip, 0.5F);
                     }
@@ -144,7 +149,7 @@ public class DialogueSystem: MonoBehaviour {
             }
             while (true)
             {
-                if (Input.GetKeyDown(DialogueInput))
+                if (Input.GetMouseButtonDown(0))
                 {
                     break;
                 }
@@ -157,21 +162,25 @@ public class DialogueSystem: MonoBehaviour {
     }
 
     public void DropDialogue()
-    {       
-      
+    {
+     
+        dialogueGUI.SetActive(false);
         dialogueBoxGUI.gameObject.SetActive(false);
     }
 
     public void OutOfRange()
     {
+        
         outOfRange = true;
         if (outOfRange == true)
         {
             letterIsMultiplied = false;
             dialogueActive = false;
             StopAllCoroutines();
-            
+            dialogueGUI.SetActive(false);
             dialogueBoxGUI.gameObject.SetActive(false);
         }
     }
+
+  
 }

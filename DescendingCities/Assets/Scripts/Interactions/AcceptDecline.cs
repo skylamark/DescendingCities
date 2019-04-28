@@ -15,7 +15,7 @@ public class AcceptDecline : MonoBehaviour
             PlayerManagement.player.CurrTask = task;
             dialogSystem.enabled = false;
 
-            Debug.Log(PlayerManagement.player.CurrTask.situation);
+           
         }
     }
     public static void onDecline()
