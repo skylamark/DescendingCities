@@ -7,7 +7,7 @@ using System.Linq;
 public class Player: MonoBehaviour
 {
     private List<Collectable> problems;
-    private List<string> inventory;
+    private List<string> inventory; //available solutions
     private Task currTask = null;
 
     public List<Collectable> Problems { get => problems; set => problems = value; }

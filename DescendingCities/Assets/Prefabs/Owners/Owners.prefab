@@ -111,12 +111,12 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    - target: {fileID: 6633911603545190937, guid: cb5b12313071de84d84da008f2a97695,
+    - target: {fileID: 4927694114069367574, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    - target: {fileID: 4927694114069367574, guid: cb5b12313071de84d84da008f2a97695,
+    - target: {fileID: 6633911603545190937, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -135,7 +135,7 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: CompletionMessage
-      value: Thanks a lot. Starting a VVE is great idea!
+      value: Thanks a lot. I can join your VVE
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -247,12 +247,12 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    - target: {fileID: 6633911603545190937, guid: cb5b12313071de84d84da008f2a97695,
+    - target: {fileID: 4927694114069367574, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    - target: {fileID: 4927694114069367574, guid: cb5b12313071de84d84da008f2a97695,
+    - target: {fileID: 6633911603545190937, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -271,7 +271,7 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: CompletionMessage
-      value: Thanks a lot. Starting a VVE is great idea!
+      value: Thanks a lot. I can join your VVE
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -383,12 +383,12 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    - target: {fileID: 6633911603545190937, guid: cb5b12313071de84d84da008f2a97695,
+    - target: {fileID: 4927694114069367574, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    - target: {fileID: 4927694114069367574, guid: cb5b12313071de84d84da008f2a97695,
+    - target: {fileID: 6633911603545190937, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -407,7 +407,7 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: CompletionMessage
-      value: Thanks a lot. Starting a VVE is great idea!
+      value: Thanks a lot. I can join your VVE
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -519,12 +519,12 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    - target: {fileID: 6633911603545190937, guid: cb5b12313071de84d84da008f2a97695,
+    - target: {fileID: 4927694114069367574, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    - target: {fileID: 4927694114069367574, guid: cb5b12313071de84d84da008f2a97695,
+    - target: {fileID: 6633911603545190937, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -543,7 +543,7 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: CompletionMessage
-      value: Thanks a lot. Starting a VVE is great idea!
+      value: Thanks a lot. Starting a VVE is great idea! I can be the first member!
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}

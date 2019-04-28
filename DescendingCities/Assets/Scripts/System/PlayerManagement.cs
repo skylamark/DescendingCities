@@ -5,11 +5,12 @@ using UnityEngine;
 public class PlayerManagement : MonoBehaviour
 {
     public static Player player = new Player();
+    public Level CurrentLevel;
     public static Level currLevel;
-    
 
     void Start()
     {
+        currLevel = CurrentLevel;
         player.CurrTask = null;
        
        
@@ -19,7 +20,10 @@ public class PlayerManagement : MonoBehaviour
 
     private void Update()
     {
-       
+        if (currLevel.isComplete())
+        {
+            Debug.Log("Cong. you completed the level");
+        }
     }
 
   

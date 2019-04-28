@@ -86,6 +86,7 @@ public class NPC : MonoBehaviour
            
             owner.task.Status = 3;
             PlayerManagement.player.CurrTask = null;
+            JoinVVE(owner);
             return splitToSentences(task.CompletionMessage); 
         }
         //Task is alreard completed or this task is not in this level
@@ -98,6 +99,13 @@ public class NPC : MonoBehaviour
             return null;
         }
 
+    }
+
+    public void JoinVVE(Owner o)
+    {
+        PlayerManagement.currLevel.Vve.Add(o);
+        PlayerManagement.currLevel.Individuals.Remove(o);
+        Debug.Log(o.Name + " joined vve");
     }
 }
 
