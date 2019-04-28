@@ -2926,8 +2926,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1966606183203351800}
   m_HandleRect: {fileID: 1134834181432525263}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.9999998
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3114,8 +3114,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 197, y: -406}
-  m_SizeDelta: {x: 400, y: 800}
+  m_AnchoredPosition: {x: 50, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8229195808465241744
 CanvasRenderer:
@@ -3275,7 +3275,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 3019805725397476672}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3319,7 +3319,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 50, y: 50}
+  m_AnchoredPosition: {x: 100, y: 100}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &579197731092936041
@@ -3596,8 +3596,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 51.241684, y: -0.0000665926}
-  m_SizeDelta: {x: -383, y: 0}
+  m_AnchoredPosition: {x: -0.000019161043, y: 0.0000074167215}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &5779494098149575830
 MonoBehaviour:
@@ -3685,7 +3685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teleportTargetLocation: {fileID: 0}
   objToTeleport: {fileID: 0}
-  uIFaderObj: {fileID: 0}
+  uIFaderObj: {fileID: 740209872}
 --- !u!1 &5984782587165837995
 GameObject:
   m_ObjectHideFlags: 0

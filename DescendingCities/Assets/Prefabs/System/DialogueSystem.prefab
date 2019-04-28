@@ -480,7 +480,7 @@ MonoBehaviour:
   dialogueText: {fileID: 2802108834255830513}
   dialogueGUI: {fileID: 2802108833892414751}
   dialogueBoxGUI: {fileID: 2802108833665179526}
-  letterDelay: 0.1
+  letterDelay: 0.02
   letterMultiplier: 0.5
   Names: 
   dialogueLines:

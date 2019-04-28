@@ -46,15 +46,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Owner4
       objectReference: {fileID: 0}
-    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 142.14783
+      value: 67.9
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -64,7 +59,7 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 58.594868
+      value: -9.1
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -106,20 +101,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 571861494363907979, guid: cb5b12313071de84d84da008f2a97695,
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 4927694114069367574, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 6633911603545190937, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      propertyPath: TaskID
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -157,11 +142,21 @@ PrefabInstance:
       propertyPath: reward
       value: Start your own VvE to reduce Costs.
       objectReference: {fileID: 0}
-    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+    - target: {fileID: 4185553099906481622, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
-      propertyPath: TaskID
-      value: 3
+      propertyPath: NPCCharacter
+      value: 
+      objectReference: {fileID: 380664890289355406}
+    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: name
+      value: Owner 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: task
+      value: 
+      objectReference: {fileID: 3463139411408390015}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb5b12313071de84d84da008f2a97695, type: 3}
 --- !u!4 &380664889005630227 stripped
@@ -170,6 +165,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 191346139136531714}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &380664890289355406 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 571861494363907980, guid: cb5b12313071de84d84da008f2a97695,
+    type: 3}
+  m_PrefabInstance: {fileID: 191346139136531714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3463139411408390015 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+    type: 3}
+  m_PrefabInstance: {fileID: 191346139136531714}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979cb479378d3334b8fed5b5cd3c7c5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &349397862941565347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -182,15 +195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Owner3
       objectReference: {fileID: 0}
-    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 142.14783
+      value: 82
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -200,7 +208,7 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 58.594868
+      value: 9.3
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -242,20 +250,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 571861494363907979, guid: cb5b12313071de84d84da008f2a97695,
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 4927694114069367574, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 6633911603545190937, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      propertyPath: TaskID
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -293,11 +291,21 @@ PrefabInstance:
       propertyPath: reward
       value: Start your own VvE to reduce Costs.
       objectReference: {fileID: 0}
-    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+    - target: {fileID: 4185553099906481622, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
-      propertyPath: TaskID
-      value: 2
+      propertyPath: NPCCharacter
+      value: 
+      objectReference: {fileID: 231626961382884911}
+    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: name
+      value: Owner 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: task
+      value: 
+      objectReference: {fileID: 3922926920180612062}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb5b12313071de84d84da008f2a97695, type: 3}
 --- !u!4 &231626963271114674 stripped
@@ -306,6 +314,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 349397862941565347}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &231626961382884911 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 571861494363907980, guid: cb5b12313071de84d84da008f2a97695,
+    type: 3}
+  m_PrefabInstance: {fileID: 349397862941565347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3922926920180612062 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+    type: 3}
+  m_PrefabInstance: {fileID: 349397862941565347}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979cb479378d3334b8fed5b5cd3c7c5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6986577257474255498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -318,15 +344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Owner2
       objectReference: {fileID: 0}
-    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 142.14783
+      value: 57.2
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -378,20 +399,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 571861494363907979, guid: cb5b12313071de84d84da008f2a97695,
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 4927694114069367574, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 6633911603545190937, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      propertyPath: TaskID
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -429,11 +440,21 @@ PrefabInstance:
       propertyPath: reward
       value: Start your own VvE to reduce Costs.
       objectReference: {fileID: 0}
-    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+    - target: {fileID: 4185553099906481622, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
-      propertyPath: TaskID
-      value: 1
+      propertyPath: NPCCharacter
+      value: 
+      objectReference: {fileID: 7429503423442816262}
+    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: name
+      value: Owner 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: task
+      value: 
+      objectReference: {fileID: 5934908960541012215}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb5b12313071de84d84da008f2a97695, type: 3}
 --- !u!4 &7429503424726013083 stripped
@@ -442,6 +463,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6986577257474255498}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &7429503423442816262 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 571861494363907980, guid: cb5b12313071de84d84da008f2a97695,
+    type: 3}
+  m_PrefabInstance: {fileID: 6986577257474255498}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5934908960541012215 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+    type: 3}
+  m_PrefabInstance: {fileID: 6986577257474255498}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979cb479378d3334b8fed5b5cd3c7c5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7102325826367674946
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -454,15 +493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Owner1
       objectReference: {fileID: 0}
-    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 142.14783
+      value: 6.6
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -472,7 +506,7 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 58.594868
+      value: 12.1
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -513,21 +547,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 571861494363907979, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 4927694114069367574, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 6633911603545190937, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -565,6 +584,21 @@ PrefabInstance:
       propertyPath: reward
       value: Start your own VvE to reduce Costs.
       objectReference: {fileID: 0}
+    - target: {fileID: 4185553099906481622, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: NPCCharacter
+      value: 
+      objectReference: {fileID: 7313616315954150862}
+    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: name
+      value: Owner 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: task
+      value: 
+      objectReference: {fileID: 5780582375045808191}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb5b12313071de84d84da008f2a97695, type: 3}
 --- !u!4 &7313616315627775059 stripped
@@ -573,3 +607,21 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7102325826367674946}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &7313616315954150862 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 571861494363907980, guid: cb5b12313071de84d84da008f2a97695,
+    type: 3}
+  m_PrefabInstance: {fileID: 7102325826367674946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5780582375045808191 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+    type: 3}
+  m_PrefabInstance: {fileID: 7102325826367674946}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979cb479378d3334b8fed5b5cd3c7c5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
