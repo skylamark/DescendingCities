@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerManagement : MonoBehaviour
 {
     public static Player player = new Player();
-    public static Level level;
+    public static Level currLevel;
     
 
     void Start()

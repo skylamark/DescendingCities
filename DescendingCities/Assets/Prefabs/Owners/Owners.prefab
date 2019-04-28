@@ -1,0 +1,575 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5230152672338984715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7664466203184502446}
+  m_Layer: 0
+  m_Name: Owners
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &7664466203184502446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5230152672338984715}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.12, y: 0, z: 7.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7313616315627775059}
+  - {fileID: 7429503424726013083}
+  - {fileID: 231626963271114674}
+  - {fileID: 380664889005630227}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &191346139136531714
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7664466203184502446}
+    m_Modifications:
+    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_Name
+      value: Owner4
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 142.14783
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 58.594868
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861494363907979, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6633911603545190937, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4927694114069367574, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: InitialConversation
+      value: "Shits so expensive. I can never pay it on my own. Can you find out what
+        I can do?\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: TellPlayerHeIsBusy
+      value: You seem busy.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: CompletionMessage
+      value: Thanks a lot. Starting a VVE is great idea!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: WaitingForSolution
+      value: I am looking forward to it!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: GenericResponse
+      value: Hi, what a beautiful day!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: location
+      value: Municipality
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: reward
+      value: Start your own VvE to reduce Costs.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: TaskID
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb5b12313071de84d84da008f2a97695, type: 3}
+--- !u!4 &380664889005630227 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+    type: 3}
+  m_PrefabInstance: {fileID: 191346139136531714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &349397862941565347
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7664466203184502446}
+    m_Modifications:
+    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_Name
+      value: Owner3
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 142.14783
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 58.594868
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861494363907979, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6633911603545190937, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4927694114069367574, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: InitialConversation
+      value: "Shits so expensive. I can never pay it on my own. Can you find out what
+        I can do?\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: TellPlayerHeIsBusy
+      value: You seem busy.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: CompletionMessage
+      value: Thanks a lot. Starting a VVE is great idea!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: WaitingForSolution
+      value: I am looking forward to it!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: GenericResponse
+      value: Hi, what a beautiful day!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: location
+      value: Municipality
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: reward
+      value: Start your own VvE to reduce Costs.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: TaskID
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb5b12313071de84d84da008f2a97695, type: 3}
+--- !u!4 &231626963271114674 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+    type: 3}
+  m_PrefabInstance: {fileID: 349397862941565347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6986577257474255498
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7664466203184502446}
+    m_Modifications:
+    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_Name
+      value: Owner2
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 142.14783
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 58.594868
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861494363907979, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6633911603545190937, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4927694114069367574, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: InitialConversation
+      value: "Shits so expensive. I can never pay it on my own. Can you find out what
+        I can do?\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: TellPlayerHeIsBusy
+      value: You seem busy.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: CompletionMessage
+      value: Thanks a lot. Starting a VVE is great idea!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: WaitingForSolution
+      value: I am looking forward to it!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: GenericResponse
+      value: Hi, what a beautiful day!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: location
+      value: Municipality
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: reward
+      value: Start your own VvE to reduce Costs.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: TaskID
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb5b12313071de84d84da008f2a97695, type: 3}
+--- !u!4 &7429503424726013083 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+    type: 3}
+  m_PrefabInstance: {fileID: 6986577257474255498}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7102325826367674946
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7664466203184502446}
+    m_Modifications:
+    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_Name
+      value: Owner1
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 142.14783
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 58.594868
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 571861494363907979, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6633911603545190937, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4927694114069367574, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: InitialConversation
+      value: "Shits so expensive. I can never pay it on my own. Can you find out what
+        I can do?\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: TellPlayerHeIsBusy
+      value: You seem busy.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: CompletionMessage
+      value: Thanks a lot. Starting a VVE is great idea!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: WaitingForSolution
+      value: I am looking forward to it!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: GenericResponse
+      value: Hi, what a beautiful day!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: location
+      value: Municipality
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: reward
+      value: Start your own VvE to reduce Costs.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb5b12313071de84d84da008f2a97695, type: 3}
+--- !u!4 &7313616315627775059 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
+    type: 3}
+  m_PrefabInstance: {fileID: 7102325826367674946}
+  m_PrefabAsset: {fileID: 0}

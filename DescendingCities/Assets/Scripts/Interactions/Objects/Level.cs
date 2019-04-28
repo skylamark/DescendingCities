@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class Level: MonoBehaviour
 {
-    private List<Owner> individuals = new List<Owner>();
-    private List<Owner> vve = new List<Owner>();
+    public List<Owner> individuals = new List<Owner>();
+    public List<Owner> vve = new List<Owner>();
 
     public List<Owner> Individuals { get => individuals; set => individuals = value; }
     public List<Owner> Vve { get => vve; set => vve = value; }

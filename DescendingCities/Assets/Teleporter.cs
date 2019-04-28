@@ -42,7 +42,7 @@ public class Teleporter : MonoBehaviour
         objToTeleport.GetComponent<NavMeshAgent>().enabled = false;
     }
 
-    void TeleportObject()
+    public void TeleportObject()
     {
         objToTeleport.transform.position = teleportTargetLocation.transform.position;
         objToTeleport.transform.rotation = teleportTargetLocation.transform.rotation;

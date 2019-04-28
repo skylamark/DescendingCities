@@ -5,7 +5,7 @@ using UnityEngine;
 using System;
 using UnityEditor;
 
-[System.Serializable]
+
 public class NPC : MonoBehaviour
 {
 
@@ -15,14 +15,7 @@ public class NPC : MonoBehaviour
     private DialogueSystem dialogueSystem;
 
     private Owner owner;
-
-    public string Name;
-
-    private const int SIZE = 4;
-
-    [TextArea(5, 10)]
-    public string[] sentences = new string[SIZE];
-
+    
     void Start()
     {
         dialogueSystem = FindObjectOfType<DialogueSystem>();
@@ -34,14 +27,14 @@ public class NPC : MonoBehaviour
       
     }
 
-    public void OnTriggerStay(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         this.gameObject.GetComponent<NPC>().enabled = true;
         FindObjectOfType<DialogueSystem>().EnterRangeOfNPC();
-        if ((other.gameObject.tag == "Player") && Input.GetMouseButtonDown(0))
+        if ((other.gameObject.tag == "Player"))
         {
             this.gameObject.GetComponent<NPC>().enabled = true;
-            dialogueSystem.Names = Name;
+            dialogueSystem.Names = owner.Name;
             dialogueSystem.dialogueLines = Sentence();
             FindObjectOfType<DialogueSystem>().NPCName();
         }
@@ -53,42 +46,50 @@ public class NPC : MonoBehaviour
         this.gameObject.GetComponent<NPC>().enabled = false;
     }
 
-    void OnValidate()
-    {
-        if (sentences.Length != SIZE)
-        {
-            Debug.LogWarning("Don't change the array size!");
-            Array.Resize(ref sentences, SIZE);
-        }
-    }
-
+ 
  
     public string[] splitToSentences(string s)
     {
-        return s.Split('.');
+        return s.Split('.', '?', '!');
 
     }
 
     private string[] Sentence()
     {
         Task task = owner.Task;
-
-        if (owner.Task.Status == 0 && PlayerManagement.player.isAvailable())
+        //Task never given yet and player don't have another task
+        if (owner.Task.Status == 0 && PlayerManagement.player.isAvailable()) 
         {
-
+            
+            owner.task.status = 1;
+            PlayerManagement.player.CurrTask = owner.task;
+            Debug.Log(PlayerManagement.player.CurrTask.TaskID);
+            Debug.Log(PlayerManagement.player.CurrTask.InitialConversation);
             return splitToSentences(task.InitialConversation);
 
 
         }
+        //Task never given yet but player is busy with another task
         else if (task.Status == 0 && !PlayerManagement.player.isAvailable())
         {
             return splitToSentences(task.TellPlayerHeIsBusy);
         }
+
+        //Task is given but not completed yet
+        else if (task.Status == 1)
+        {
+            return splitToSentences(task.WaitingForSolution);
+        }
+        //Task is given and completed but player didn't back to NPC yet.
         else if (task.Status == 2)
         {
+           
+            owner.task.Status = 3;
+            PlayerManagement.player.CurrTask = null;
             return splitToSentences(task.CompletionMessage); 
         }
-        else if(task.Status == 3)
+        //Task is alreard completed or this task is not in this level
+        else if (task.Status == 3)
         {
             return splitToSentences(task.GenericResponse);
         }
