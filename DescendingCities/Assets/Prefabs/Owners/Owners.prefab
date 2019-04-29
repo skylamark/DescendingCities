@@ -49,17 +49,17 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 67.9
+      value: -196.04
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.71
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.1
+      value: -107.06
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -69,7 +69,7 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.9546594
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -79,7 +79,7 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.29770026
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -94,13 +94,28 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -145.36101
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: name
+      value: Owner 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: task
+      value: 
+      objectReference: {fileID: 3463139411408390015}
+    - target: {fileID: 4185553099906481622, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: NPCCharacter
+      value: 
+      objectReference: {fileID: 380664890289355406}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: TaskID
@@ -109,8 +124,9 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: InitialConversation
-      value: "Shits so expensive. I can never pay it on my own. Can you find out what
-        I can do?\r\n"
+      value: "Repairing the house's foundations can be very expensive. I can never
+        pay it on my own. Can you find out what I can do?\r Maybe the municipality
+        can help."
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -120,12 +136,12 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: CompletionMessage
-      value: Thanks a lot. I can join your VVE
+      value: Thanks a lot. Starting a VVE is great idea! I will join it too!
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: WaitingForSolution
-      value: I am looking forward to it!
+      value: I am looking forward to the information you will find for me at the municipality!
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -142,21 +158,6 @@ PrefabInstance:
       propertyPath: reward
       value: Start your own VvE to reduce Costs.
       objectReference: {fileID: 0}
-    - target: {fileID: 4185553099906481622, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: NPCCharacter
-      value: 
-      objectReference: {fileID: 380664890289355406}
-    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: name
-      value: Owner 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: task
-      value: 
-      objectReference: {fileID: 3463139411408390015}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb5b12313071de84d84da008f2a97695, type: 3}
 --- !u!4 &380664889005630227 stripped
@@ -198,17 +199,17 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 82
+      value: 46.06
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.3
+      value: 30.82
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -218,7 +219,7 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.97359556
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -228,7 +229,7 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.22828005
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -243,13 +244,28 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 206.392
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: name
+      value: Owner 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: task
+      value: 
+      objectReference: {fileID: 3922926920180612062}
+    - target: {fileID: 4185553099906481622, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: NPCCharacter
+      value: 
+      objectReference: {fileID: 231626961382884911}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: TaskID
@@ -258,8 +274,9 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: InitialConversation
-      value: "Shits so expensive. I can never pay it on my own. Can you find out what
-        I can do?\r\n"
+      value: "Repairing the house's foundations can be very expensive. I can never
+        pay it on my own. Can you find out what I can do?\r Maybe the municipality
+        can help."
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -269,12 +286,12 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: CompletionMessage
-      value: Thanks a lot. I can join your VVE
+      value: Thanks a lot. Starting a VVE is great idea! I will join it too!
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: WaitingForSolution
-      value: I am looking forward to it!
+      value: I am looking forward to the information you will find for me at the municipality!
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -291,21 +308,6 @@ PrefabInstance:
       propertyPath: reward
       value: Start your own VvE to reduce Costs.
       objectReference: {fileID: 0}
-    - target: {fileID: 4185553099906481622, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: NPCCharacter
-      value: 
-      objectReference: {fileID: 231626961382884911}
-    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: name
-      value: Owner 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: task
-      value: 
-      objectReference: {fileID: 3922926920180612062}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb5b12313071de84d84da008f2a97695, type: 3}
 --- !u!4 &231626963271114674 stripped
@@ -347,7 +349,7 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 57.2
+      value: -104.59
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -357,7 +359,7 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 58.594868
+      value: -115.25
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -367,7 +369,7 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.355346
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -377,7 +379,7 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9347348
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -392,13 +394,28 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 41.629
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: name
+      value: Owner 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: task
+      value: 
+      objectReference: {fileID: 5934908960541012215}
+    - target: {fileID: 4185553099906481622, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: NPCCharacter
+      value: 
+      objectReference: {fileID: 7429503423442816262}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: TaskID
@@ -407,8 +424,9 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: InitialConversation
-      value: "Shits so expensive. I can never pay it on my own. Can you find out what
-        I can do?\r\n"
+      value: "Repairing the house's foundations can be very expensive. I can never
+        pay it on my own. Can you find out what I can do?\r Maybe the municipality
+        can help."
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -418,12 +436,12 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: CompletionMessage
-      value: Thanks a lot. I can join your VVE
+      value: Thanks a lot. Starting a VVE is great idea! I will join it too!
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: WaitingForSolution
-      value: I am looking forward to it!
+      value: I am looking forward to the information you will find for me at the municipality!
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -440,21 +458,6 @@ PrefabInstance:
       propertyPath: reward
       value: Start your own VvE to reduce Costs.
       objectReference: {fileID: 0}
-    - target: {fileID: 4185553099906481622, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: NPCCharacter
-      value: 
-      objectReference: {fileID: 7429503423442816262}
-    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: name
-      value: Owner 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: task
-      value: 
-      objectReference: {fileID: 5934908960541012215}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb5b12313071de84d84da008f2a97695, type: 3}
 --- !u!4 &7429503424726013083 stripped
@@ -496,7 +499,7 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.6
+      value: 31.51
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -506,27 +509,27 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.1
+      value: 19.42
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.9633584
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.26821753
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -541,18 +544,34 @@ PrefabInstance:
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 148.884
       objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: name
+      value: Owner 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: task
+      value: 
+      objectReference: {fileID: 5780582375045808191}
+    - target: {fileID: 4185553099906481622, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: NPCCharacter
+      value: 
+      objectReference: {fileID: 7313616315954150862}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: InitialConversation
-      value: "Shits so expensive. I can never pay it on my own. Can you find out what
-        I can do?\r\n"
+      value: "Repairing the house's foundations can be very expensive. I can never
+        pay it on my own. Can you find out what I can do?\r Maybe the municipality
+        can help.\n"
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -567,7 +586,7 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: WaitingForSolution
-      value: I am looking forward to it!
+      value: I am looking forward to the information you will find for me at the municipality!
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -584,21 +603,6 @@ PrefabInstance:
       propertyPath: reward
       value: Start your own VvE to reduce Costs.
       objectReference: {fileID: 0}
-    - target: {fileID: 4185553099906481622, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: NPCCharacter
-      value: 
-      objectReference: {fileID: 7313616315954150862}
-    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: name
-      value: Owner 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587979777663716907, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: task
-      value: 
-      objectReference: {fileID: 5780582375045808191}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb5b12313071de84d84da008f2a97695, type: 3}
 --- !u!4 &7313616315627775059 stripped

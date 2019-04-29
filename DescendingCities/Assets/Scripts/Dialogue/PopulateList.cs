@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class PopulateList : MonoBehaviour
 {
-   
     Text textField;
     void Start()
     {

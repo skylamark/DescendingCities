@@ -23,16 +23,22 @@ public class Teleporter : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        objToTeleport = other.gameObject;
-        buttonTeleport.SetActive(true);
-        button.onClick.RemoveAllListeners();
-        button.onClick.AddListener(() => ActivateTeleport());
+        if (other.tag == "Player")
+        {
+            objToTeleport = other.gameObject;
+            buttonTeleport.SetActive(true);
+            button.onClick.RemoveAllListeners();
+            button.onClick.AddListener(() => ActivateTeleport());
+        }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        objToTeleport = null;
-        buttonTeleport.SetActive(false);
+        if (other.tag == "Player")
+        {
+            objToTeleport = null;
+            buttonTeleport.SetActive(false);
+        }
     }
 
     public void ActivateTeleport()
