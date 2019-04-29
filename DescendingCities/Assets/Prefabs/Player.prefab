@@ -182,7 +182,7 @@ GameObject:
   - component: {fileID: 383549429}
   m_Layer: 0
   m_Name: Camera90
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 108700541}
   m_Layer: 0
   m_Name: Camera45
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -374,7 +374,7 @@ GameObject:
   - component: {fileID: 272956152}
   m_Layer: 0
   m_Name: Camera20
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -564,6 +564,7 @@ MonoBehaviour:
   walkableMask:
     serializedVersion: 2
     m_Bits: 256
+  touchInput: 0
 --- !u!114 &8687758280393374239
 MonoBehaviour:
   m_ObjectHideFlags: 0
