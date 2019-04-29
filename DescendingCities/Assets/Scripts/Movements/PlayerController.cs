@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        camera = Camera.main;
         movement = GetComponent<PlayerMovement>();
     }
 
@@ -25,7 +24,7 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 RaycastHit rayCastHit;
 
                 if (Physics.Raycast(ray, out rayCastHit, 100, walkableMask))

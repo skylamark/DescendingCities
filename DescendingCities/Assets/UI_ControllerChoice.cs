@@ -34,14 +34,14 @@ public class UI_ControllerChoice : MonoBehaviour
             case 0:
                 Joystick.SetActive(true);
                 player.GetComponent<NavMeshAgent>().ResetPath();
-                playerCntrl.touchInput = false;
+                playerCntrl.touchInput = false;     /* Android Only */
                 playerDrctnl.enabled = true;
                 playerCntrl.enabled = false;
                 playerMvmnt.enabled = false;
                 break;
             case 1:
                 Joystick.SetActive(false);
-                playerCntrl.touchInput = true;
+                playerCntrl.touchInput = true;      /* Android Only */ 
                 playerDrctnl.enabled = false;
                 playerCntrl.enabled = true;
                 playerMvmnt.enabled = true;

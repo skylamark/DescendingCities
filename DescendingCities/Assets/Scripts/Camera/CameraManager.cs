@@ -46,6 +46,8 @@ public class CameraManager : MonoBehaviour
             switch (cameraAngle)
             {
                 case CameraAngle.Sideview:
+                    RealeaseMainCam();
+                    cameras[0].tag = "MainCamera";
                     cameras[0].gameObject.SetActive(true);
                     cameras[1].gameObject.SetActive(false);
                     cameras[2].gameObject.SetActive(false);
@@ -55,6 +57,8 @@ public class CameraManager : MonoBehaviour
                     privateAngle = cameraAngle;
                     break;
                 case CameraAngle.HalfWay:
+                    RealeaseMainCam();
+                    cameras[1].tag = "MainCamera";
                     cameras[0].gameObject.SetActive(false);
                     cameras[1].gameObject.SetActive(true);
                     cameras[2].gameObject.SetActive(false);
@@ -64,6 +68,8 @@ public class CameraManager : MonoBehaviour
                     privateAngle = cameraAngle;
                     break;
                 case CameraAngle.TopDown:
+                    RealeaseMainCam();
+                    cameras[2].tag = "MainCamera";
                     cameras[0].gameObject.SetActive(false);
                     cameras[1].gameObject.SetActive(false);
                     cameras[2].gameObject.SetActive(true);
@@ -80,6 +86,8 @@ public class CameraManager : MonoBehaviour
             switch (cameraAngle)
             {
                 case CameraAngle.Sideview:
+                    RealeaseMainCam();
+                    cameras[3].tag = "MainCamera";
                     cameras[0].gameObject.SetActive(false);
                     cameras[1].gameObject.SetActive(false);
                     cameras[2].gameObject.SetActive(false);
@@ -89,6 +97,8 @@ public class CameraManager : MonoBehaviour
                     privateAngle = cameraAngle;
                     break;
                 case CameraAngle.HalfWay:
+                    RealeaseMainCam();
+                    cameras[4].tag = "MainCamera";
                     cameras[0].gameObject.SetActive(false);
                     cameras[1].gameObject.SetActive(false);
                     cameras[2].gameObject.SetActive(false);
@@ -98,6 +108,8 @@ public class CameraManager : MonoBehaviour
                     privateAngle = cameraAngle;
                     break;
                 case CameraAngle.TopDown:
+                    RealeaseMainCam();
+                    cameras[5].tag = "MainCamera";
                     cameras[0].gameObject.SetActive(false);
                     cameras[1].gameObject.SetActive(false);
                     cameras[2].gameObject.SetActive(false);
@@ -164,4 +176,16 @@ public class CameraManager : MonoBehaviour
         }
 
     }
+
+    private void RealeaseMainCam()
+    {
+        cameras[0].tag = "Untagged";
+        cameras[1].tag = "Untagged";
+        cameras[2].tag = "Untagged";
+        cameras[3].tag = "Untagged";
+        cameras[4].tag = "Untagged";
+        cameras[5].tag = "Untagged";
+
+    }
+
 }

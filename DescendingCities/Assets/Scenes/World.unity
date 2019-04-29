@@ -2364,6 +2364,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: City
       objectReference: {fileID: 0}
+    - target: {fileID: 2488669510416027689, guid: af03ea895f51bf24f8b943d034e6ac21,
+        type: 3}
+      propertyPath: individuals.Array.data[0]
+      value: 
+      objectReference: {fileID: 5517438466186725674}
+    - target: {fileID: 2488669510416027689, guid: af03ea895f51bf24f8b943d034e6ac21,
+        type: 3}
+      propertyPath: individuals.Array.data[1]
+      value: 
+      objectReference: {fileID: 5517438466186725673}
+    - target: {fileID: 2488669510416027689, guid: af03ea895f51bf24f8b943d034e6ac21,
+        type: 3}
+      propertyPath: individuals.Array.data[2]
+      value: 
+      objectReference: {fileID: 5517438466186725672}
+    - target: {fileID: 2488669510416027689, guid: af03ea895f51bf24f8b943d034e6ac21,
+        type: 3}
+      propertyPath: individuals.Array.data[3]
+      value: 
+      objectReference: {fileID: 5517438466186725671}
     - target: {fileID: 8907645656686779698, guid: af03ea895f51bf24f8b943d034e6ac21,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2419,26 +2439,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2488669510416027689, guid: af03ea895f51bf24f8b943d034e6ac21,
-        type: 3}
-      propertyPath: individuals.Array.data[0]
-      value: 
-      objectReference: {fileID: 5517438466186725674}
-    - target: {fileID: 2488669510416027689, guid: af03ea895f51bf24f8b943d034e6ac21,
-        type: 3}
-      propertyPath: individuals.Array.data[1]
-      value: 
-      objectReference: {fileID: 5517438466186725673}
-    - target: {fileID: 2488669510416027689, guid: af03ea895f51bf24f8b943d034e6ac21,
-        type: 3}
-      propertyPath: individuals.Array.data[2]
-      value: 
-      objectReference: {fileID: 5517438466186725672}
-    - target: {fileID: 2488669510416027689, guid: af03ea895f51bf24f8b943d034e6ac21,
-        type: 3}
-      propertyPath: individuals.Array.data[3]
-      value: 
-      objectReference: {fileID: 5517438466186725671}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af03ea895f51bf24f8b943d034e6ac21, type: 3}
 --- !u!114 &1327686256 stripped
@@ -3108,6 +3108,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1134834181432525263, guid: 39f75b62519693049b5ef68d1bdd24f9,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1077248094, guid: 39f75b62519693049b5ef68d1bdd24f9, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3117,6 +3122,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 104791652}
+    - target: {fileID: 3041038097876205647, guid: 39f75b62519693049b5ef68d1bdd24f9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000074565733
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39f75b62519693049b5ef68d1bdd24f9, type: 3}
 --- !u!1 &1493927160
