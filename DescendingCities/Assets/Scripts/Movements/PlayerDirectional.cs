@@ -63,16 +63,14 @@ public class PlayerDirectional : MonoBehaviour {
         {
           
             
-            this.transform.position += this.transform.forward * speed*Time.deltaTime;
+            this.transform.position += this.transform.forward * speed*Time.deltaTime * Vector3.Magnitude(direction);
         }
     }
 
     private Vector3 MoveVector()
     {
         Vector3 direction = new Vector3(joystick.Horizantal(), 0, joystick.Vertical());
-        if (direction.magnitude > 1)
-            direction.Normalize();
-
+    
         return direction;
     }
 

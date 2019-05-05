@@ -59,8 +59,8 @@ public class JoystickController : MonoBehaviour, IDragHandler, IPointerUpHandler
     private void MoveJoystickPointer()
     {
         joystickImage.rectTransform.anchoredPosition =
-            new Vector3(inputVector.x * (backgroundImage.rectTransform.sizeDelta.x / 3),
-            inputVector.z * (backgroundImage.rectTransform.sizeDelta.y / 3));
+            new Vector3(inputVector.x * (backgroundImage.rectTransform.sizeDelta.x / 2),
+            inputVector.z * (backgroundImage.rectTransform.sizeDelta.y / 2));
     }
 
     public float Horizantal()
