@@ -12,6 +12,7 @@ public class Teleporter : MonoBehaviour
     private UI_Fader_Controller uI_Fader;
     public GameObject buttonTeleport;
     private Button button;
+    private float startTime;
 
 
     // Start is called before the first frame update
@@ -19,6 +20,7 @@ public class Teleporter : MonoBehaviour
     {
         button = buttonTeleport.GetComponent<Button>();
         uI_Fader = uIFaderObj.GetComponent<UI_Fader_Controller>();
+        startTime = 0;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -26,9 +28,26 @@ public class Teleporter : MonoBehaviour
         if (other.tag == "Player")
         {
             objToTeleport = other.gameObject;
-            buttonTeleport.SetActive(true);
-            button.onClick.RemoveAllListeners();
-            button.onClick.AddListener(() => ActivateTeleport());
+
+            startTime = Time.time;
+
+
+            /* buttonTeleport.SetActive(true);
+             button.onClick.RemoveAllListeners();
+             button.onClick.AddListener(() => ActivateTeleport());*/
+        }
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            if (Time.time - startTime >= 0.5)
+            {
+                
+                ActivateTeleport();
+                startTime = 0;
+             
+            }
         }
     }
 
@@ -36,8 +55,8 @@ public class Teleporter : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            objToTeleport = null;
-            buttonTeleport.SetActive(false);
+            //objToTeleport = null;
+           // buttonTeleport.SetActive(false);
         }
     }
 
@@ -50,10 +69,10 @@ public class Teleporter : MonoBehaviour
 
     public void TeleportObject()
     {
+        Debug.Log("Teleported");
         objToTeleport.transform.position = teleportTargetLocation.transform.position;
         objToTeleport.transform.rotation = teleportTargetLocation.transform.rotation;
         objToTeleport.GetComponent<NavMeshAgent>().enabled = true;
-        objToTeleport = null;
         uI_Fader.FadeOut(0.5f);
 
     }
