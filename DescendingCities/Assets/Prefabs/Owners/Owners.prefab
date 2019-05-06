@@ -124,9 +124,9 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: InitialConversation
-      value: "Repairing the house's foundations can be very expensive. I can never
-        pay it on my own. Can you find out what I can do?\r Maybe the municipality
-        can help."
+      value: "Repairing the house's foundations can be very expensive. & I can never
+        pay it on my own. & Can you find out what I can do?\r &Maybe the municipality
+        can help.&"
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -136,12 +136,13 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: CompletionMessage
-      value: Thanks a lot. Starting a VVE is great idea! I will join it too!
+      value: Thanks a lot.& Starting a VVE is great idea!& I will join it too!
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: WaitingForSolution
-      value: I am looking forward to the information you will find for me at the municipality!
+      value: I am looking forward to the information& you will find for me at the
+        municipality!
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -274,9 +275,9 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: InitialConversation
-      value: "Repairing the house's foundations can be very expensive. I can never
-        pay it on my own. Can you find out what I can do?\r Maybe the municipality
-        can help."
+      value: "Repairing the house's foundations can be very expensive. & I can never
+        pay it on my own. & Can you find out what I can do?\r &Maybe the municipality
+        can help.&"
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -286,12 +287,13 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: CompletionMessage
-      value: Thanks a lot. Starting a VVE is great idea! I will join it too!
+      value: Thanks a lot.& Starting a VVE is great idea!& I will join it too!
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: WaitingForSolution
-      value: I am looking forward to the information you will find for me at the municipality!
+      value: I am looking forward to the information& you will find for me at the
+        municipality!
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -424,9 +426,9 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: InitialConversation
-      value: "Repairing the house's foundations can be very expensive. I can never
-        pay it on my own. Can you find out what I can do?\r Maybe the municipality
-        can help."
+      value: "Repairing the house's foundations can be very expensive. & I can never
+        pay it on my own. & Can you find out what I can do?\r &Maybe the municipality
+        can help.&"
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -436,12 +438,13 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: CompletionMessage
-      value: Thanks a lot. Starting a VVE is great idea! I will join it too!
+      value: Thanks a lot.& Starting a VVE is great idea!& I will join it too!
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: WaitingForSolution
-      value: I am looking forward to the information you will find for me at the municipality!
+      value: I am looking forward to the information& you will find for me at the
+        municipality!
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -569,9 +572,9 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: InitialConversation
-      value: "Repairing the house's foundations can be very expensive. I can never
-        pay it on my own. Can you find out what I can do?\r Maybe the municipality
-        can help.\n"
+      value: "Repairing the house's foundations can be very expensive. & I can never
+        pay it on my own. & Can you find out what I can do?\r &Maybe the municipality
+        can help.&\n"
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
@@ -581,12 +584,13 @@ PrefabInstance:
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: CompletionMessage
-      value: Thanks a lot. Starting a VVE is great idea! I can be the first member!
+      value: Thanks a lot. Starting a VVE is great idea! &I can be the first member!
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: WaitingForSolution
-      value: I am looking forward to the information you will find for me at the municipality!
+      value: I am looking forward to the information& you will find for me at the
+        municipality!
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}

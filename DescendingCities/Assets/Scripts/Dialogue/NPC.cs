@@ -20,11 +20,18 @@ public class NPC : MonoBehaviour
     {
         dialogueSystem = FindObjectOfType<DialogueSystem>();
         owner = GetComponent<Owner>();
+       
     }
   
     void Update()
     {
-      
+
+        if (owner.Task.Status == 0 && PlayerManagement.player.isAvailable())
+        {
+            dialogueSystem.currentOwner = owner;
+
+        }
+            
     }
 
     public void OnTriggerEnter(Collider other)
@@ -50,7 +57,7 @@ public class NPC : MonoBehaviour
  
     public string[] splitToSentences(string s)
     {
-        return s.Split('.', '?', '!');
+        return s.Split('&');
 
     }
 
@@ -61,10 +68,8 @@ public class NPC : MonoBehaviour
         if (owner.Task.Status == 0 && PlayerManagement.player.isAvailable()) 
         {
             
-            owner.task.status = 1;
-            PlayerManagement.player.CurrTask = owner.task;
-            Debug.Log(PlayerManagement.player.CurrTask.TaskID);
-            Debug.Log(PlayerManagement.player.CurrTask.InitialConversation);
+           // owner.task.status = 1;
+           // PlayerManagement.player.CurrTask = owner.task;
             return splitToSentences(task.InitialConversation);
 
 

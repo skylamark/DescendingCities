@@ -11,6 +11,7 @@ public class DialogueSystem : MonoBehaviour
     public Text dialogueText;
 
     public GameObject dialogueGUI;
+    public GameObject acceptDeclineButtons;
     public Transform dialogueBoxGUI;
 
     public float letterDelay = 0.1f;
@@ -27,6 +28,7 @@ public class DialogueSystem : MonoBehaviour
     public bool dialogueActive = false;
     public bool dialogueEnded = false;
     public bool outOfRange = true;
+    public Owner currentOwner;
 
     public AudioClip audioClip;
     AudioSource audioSource;
@@ -37,6 +39,7 @@ public class DialogueSystem : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         dialogueText.text = "";
+
     }
 
     void Update()
@@ -56,6 +59,8 @@ public class DialogueSystem : MonoBehaviour
         {
             dialogueGUI.SetActive(false);
         }
+
+       
     }
 
     public void NPCName()
@@ -90,8 +95,19 @@ public class DialogueSystem : MonoBehaviour
                     letterIsMultiplied = true;
                     StartCoroutine(DisplayString(dialogueLines[currentDialogueIndex++]));
 
+                    if(currentDialogueIndex == dialogueLength - 1)
+                    {
+
+                        if (currentOwner.Task.Status == 0 && PlayerManagement.player.isAvailable())
+                        {
+                            acceptDeclineButtons.SetActive(true);
+
+                        }
+                    }
+
                     if (currentDialogueIndex >= dialogueLength)
                     {
+
                         dialogueEnded = true;
                     }
                 }
@@ -182,5 +198,19 @@ public class DialogueSystem : MonoBehaviour
         }
     }
 
-  
+    public void Accept()
+    {
+        Debug.Log("Accepted");
+        currentOwner.task.status = 1;
+            PlayerManagement.player.CurrTask = currentOwner.task;
+            acceptDeclineButtons.SetActive(false);
+
+    }
+    public void Decline()
+    {
+        currentOwner.task.status = 0;
+        acceptDeclineButtons.SetActive(false);
+        Debug.Log("Declined");
+
+    }
 }
