@@ -573,8 +573,8 @@ PrefabInstance:
         type: 3}
       propertyPath: InitialConversation
       value: "Repairing the house's foundations can be very expensive. & I can never
-        pay it on my own. & Can you find out what I can do?\r &Maybe the municipality
-        can help.&\n"
+        pay it on my own. & Maybe the municipality can help.&Can you find out what
+        I can do?\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
