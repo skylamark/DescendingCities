@@ -31,21 +31,21 @@ public class NPC : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        this.gameObject.GetComponent<NPC>().enabled = true;
-        FindObjectOfType<DialogueSystem>().EnterRangeOfNPC();
         if ((other.gameObject.tag == "Player"))
         {
+            this.gameObject.GetComponent<NPC>().enabled = true;
+            FindObjectOfType<DialogueSystem>().EnterRangeOfNPC();
             this.gameObject.GetComponent<NPC>().enabled = true;
             dialogueSystem.Names = owner.Name;
             dialogueSystem.dialogueLines = Sentence();
             FindObjectOfType<DialogueSystem>().NPCName();
-        }
 
-        if (owner.Task.Status == 0 && PlayerManagement.player.isAvailable())
-        {
-            dialogueSystem.currentOwner = owner;
-            Debug.Log(owner.Name);
+            if (owner.Task.Status == 0 && PlayerManagement.player.isAvailable())
+            {
+                dialogueSystem.currentOwner = owner;
+                Debug.Log(owner.Name);
 
+            }
         }
     }
 

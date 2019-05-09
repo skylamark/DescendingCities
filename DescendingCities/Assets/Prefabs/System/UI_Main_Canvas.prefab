@@ -405,7 +405,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 753121427933348423}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3176,9 +3176,9 @@ RectTransform:
   - {fileID: 7698579993104761022}
   - {fileID: 1885363971230910875}
   - {fileID: 1791038911}
+  - {fileID: 6450660843363412727}
   - {fileID: 4050716187190931971}
   - {fileID: 740209873}
-  - {fileID: 6450660843363412727}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3424,7 +3424,7 @@ RectTransform:
   m_Children:
   - {fileID: 4750704409730234903}
   m_Father: {fileID: 753121427933348423}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -4795,7 +4795,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000036394264, y: -0.0000053042154}
+  m_AnchoredPosition: {x: -0.00003692555, y: -0.0000076263455}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &5779494098149575830
@@ -5138,7 +5138,7 @@ RectTransform:
   - {fileID: 4841361578561212327}
   - {fileID: 3768229380313531591}
   m_Father: {fileID: 753121427933348423}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
