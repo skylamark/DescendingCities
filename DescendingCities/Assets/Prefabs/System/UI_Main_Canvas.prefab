@@ -1579,7 +1579,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4750704409730234903}
   - component: {fileID: 287843304965047974}
-  - component: {fileID: 452349667723109078}
   - component: {fileID: 6452068623712766366}
   m_Layer: 5
   m_Name: ToDo
@@ -1615,18 +1614,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450496498185720149}
   m_CullTransparentMesh: 0
---- !u!114 &452349667723109078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 450496498185720149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3725d7e82bf4e784786db1865eaab353, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6452068623712766366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4291,7 +4278,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1996875215980961470}
   m_HandleRect: {fileID: 3019805725397476672}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4808,7 +4795,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000100214005, y: -0.000037019134}
+  m_AnchoredPosition: {x: -0.000036394264, y: -0.0000053042154}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &5779494098149575830
