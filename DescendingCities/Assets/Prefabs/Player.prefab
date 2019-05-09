@@ -64,7 +64,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: c12aab1d243ba9c4b813b3c37cba5b06, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -662,7 +662,7 @@ MonoBehaviour:
   walkableMask:
     serializedVersion: 2
     m_Bits: 256
-  touchInput: 0
+  touchInput: 1
 --- !u!114 &8687758280393374239
 MonoBehaviour:
   m_ObjectHideFlags: 0
