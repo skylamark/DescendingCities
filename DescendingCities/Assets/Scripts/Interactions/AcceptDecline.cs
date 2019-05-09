@@ -4,23 +4,17 @@ using UnityEngine;
 
 public class AcceptDecline : MonoBehaviour
 {
-    public static DialogueSystem dialogSystem;
-    public static Task task;
-   
-
-    public static void onAccept()
+ 
+    public void Accept()
     {
-        if (PlayerManagement.player.isAvailable())
-        {
-            PlayerManagement.player.CurrTask = task;
-            dialogSystem.enabled = false;
+        Debug.Log("Accepted");
 
-           
-        }
     }
-    public static void onDecline()
+    public void Decline()
     {
         
-        dialogSystem.enabled = false;
+        Debug.Log("Declined");
+       
+
     }
 }

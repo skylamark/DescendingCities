@@ -97,13 +97,7 @@ public class DialogueSystem : MonoBehaviour
                 {
                     letterIsMultiplied = true;
                     StartCoroutine(DisplayString(dialogueLines[currentDialogueIndex++]));
-
                    
-
-                    if (currentDialogueIndex == dialogueLength - 1)
-                    {
-                        acceptDeclineButtons.SetActive(true);
-                    }
                     
                 }
                 yield return 0;
@@ -117,9 +111,21 @@ public class DialogueSystem : MonoBehaviour
                 }
                 yield return 0;
             }
-            dialogueEnded = false;
-            dialogueActive = false;
-            DropDialogue();
+
+            Debug.Log(currentOwner.name);
+            if(PlayerManagement.player.isAvailable() && currentOwner.Task.Status == 0)
+            {
+                acceptDeclineButtons.SetActive(true);
+            }
+            else
+            {
+                dialogueEnded = false;
+                dialogueActive = false;
+
+                DropDialogue();
+            }
+           
+            
         }
     }
 
@@ -199,7 +205,10 @@ public class DialogueSystem : MonoBehaviour
         currentOwner.task.status = 1;
             PlayerManagement.player.CurrTask = currentOwner.task;
             acceptDeclineButtons.SetActive(false);
-             dialogueEnded = true;
+        dialogueEnded = false;
+        dialogueActive = false;
+
+        DropDialogue();
 
     }
     public void Decline()
@@ -207,7 +216,10 @@ public class DialogueSystem : MonoBehaviour
         currentOwner.task.status = 0;
         acceptDeclineButtons.SetActive(false);
         Debug.Log("Declined");
-        dialogueEnded = true;
+        dialogueEnded = false;
+        dialogueActive = false;
+
+        DropDialogue();
 
     }
 }
