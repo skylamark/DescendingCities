@@ -1255,12 +1255,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532297475}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!224 &577569312 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 1791038911, guid: 39f75b62519693049b5ef68d1bdd24f9,
-    type: 3}
-  m_PrefabInstance: {fileID: 1487924191}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &588409592
 GameObject:
   m_ObjectHideFlags: 0
@@ -5064,6 +5058,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2802108833665179527, guid: 23bd0fad51dcc904b8c841125266f03a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23bd0fad51dcc904b8c841125266f03a, type: 3}
 --- !u!1001 &5517438466186725670
@@ -5133,26 +5132,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6378950762454558612, guid: 727a4047769a0f242a997b246b1d3916,
-        type: 3}
-      propertyPath: ChatBackGround
-      value: 
-      objectReference: {fileID: 577569312}
-    - target: {fileID: 6549180131966359388, guid: 727a4047769a0f242a997b246b1d3916,
-        type: 3}
-      propertyPath: ChatBackGround
-      value: 
-      objectReference: {fileID: 577569312}
-    - target: {fileID: 4525939363386514549, guid: 727a4047769a0f242a997b246b1d3916,
-        type: 3}
-      propertyPath: ChatBackGround
-      value: 
-      objectReference: {fileID: 577569312}
-    - target: {fileID: 4085290509920493780, guid: 727a4047769a0f242a997b246b1d3916,
-        type: 3}
-      propertyPath: ChatBackGround
-      value: 
-      objectReference: {fileID: 577569312}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 727a4047769a0f242a997b246b1d3916, type: 3}
 --- !u!114 &5517438466186725671 stripped
