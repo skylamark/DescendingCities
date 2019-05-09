@@ -12,6 +12,7 @@ public class UI_ControllerChoice : MonoBehaviour
     private PlayerController playerCntrl;
     private PlayerMovement playerMvmnt;
     private PlayerDirectional playerDrctnl;
+    private KeyboardMovement keyboadMovement;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class UI_ControllerChoice : MonoBehaviour
         playerCntrl = player.GetComponent<PlayerController>();
         playerMvmnt = player.GetComponent<PlayerMovement>();
         playerDrctnl = player.GetComponent<PlayerDirectional>();
+        keyboadMovement = player.GetComponent<KeyboardMovement>();
     }
 
     // Update is called once per frame
@@ -38,6 +40,7 @@ public class UI_ControllerChoice : MonoBehaviour
                 playerDrctnl.enabled = true;
                 playerCntrl.enabled = false;
                 playerMvmnt.enabled = false;
+                keyboadMovement.enabled = false;
                 break;
             case 1:
                 Joystick.SetActive(false);
@@ -45,6 +48,15 @@ public class UI_ControllerChoice : MonoBehaviour
                 playerDrctnl.enabled = false;
                 playerCntrl.enabled = true;
                 playerMvmnt.enabled = true;
+                keyboadMovement.enabled = false;
+                break;
+            case 2:
+                Joystick.SetActive(false);
+                playerCntrl.touchInput = false;      /* Desktop Only */
+                playerDrctnl.enabled = false;
+                playerCntrl.enabled = false;
+                playerMvmnt.enabled = false;
+                keyboadMovement.enabled = true;
                 break;
         }
 
