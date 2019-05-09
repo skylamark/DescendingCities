@@ -26,11 +26,6 @@ public class NPC : MonoBehaviour
     void Update()
     {
 
-        if (owner.Task.Status == 0 && PlayerManagement.player.isAvailable())
-        {
-            dialogueSystem.currentOwner = owner;
-
-        }
             
     }
 
@@ -44,6 +39,13 @@ public class NPC : MonoBehaviour
             dialogueSystem.Names = owner.Name;
             dialogueSystem.dialogueLines = Sentence();
             FindObjectOfType<DialogueSystem>().NPCName();
+        }
+
+        if (owner.Task.Status == 0 && PlayerManagement.player.isAvailable())
+        {
+            dialogueSystem.currentOwner = owner;
+            Debug.Log(owner.Name);
+
         }
     }
 

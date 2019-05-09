@@ -112,7 +112,8 @@ public class DialogueSystem : MonoBehaviour
                 yield return 0;
             }
 
-            Debug.Log(currentOwner.name);
+            
+
             if(PlayerManagement.player.isAvailable() && currentOwner.Task.Status == 0)
             {
                 acceptDeclineButtons.SetActive(true);

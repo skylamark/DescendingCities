@@ -17,15 +17,20 @@ public class NPCForInfo : MonoBehaviour
     public string[] sentences;
     public string Name;
 
+   
+
+   
+
     void Start()
     {
         dialogueSystem = FindObjectOfType<DialogueSystem>();
-     
+        
+
     }
 
     void Update()
     {
-
+        
     }
 
     public void OnTriggerEnter(Collider other)
