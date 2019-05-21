@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
+[ExecuteInEditMode]
 public class CameraManager : MonoBehaviour
 {
     public enum FollowPlayer { RotateWithPlayer, FixedWorldAngle };

@@ -12,13 +12,13 @@ public class OpenCloseMiniMap : MonoBehaviour
    public void OpenMiniMap()
     {
 
-        minimap.gameObject.active = true;
-        plusImage.gameObject.active = false;
+        minimap.gameObject.SetActive(true);
+        plusImage.gameObject.SetActive(false);
     }
 
     public void CloseMiniMap()
     {
-        minimap.gameObject.active = false;
-        plusImage.gameObject.active = true;
+        minimap.gameObject.SetActive(false);
+        plusImage.gameObject.SetActive(true);
     }
 }

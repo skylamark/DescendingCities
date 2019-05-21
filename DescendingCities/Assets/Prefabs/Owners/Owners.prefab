@@ -607,6 +607,31 @@ PrefabInstance:
       propertyPath: reward
       value: Start your own VvE to reduce Costs.
       objectReference: {fileID: 0}
+    - target: {fileID: 5133911499985597985, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.1896558
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133911499985597985, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.681198
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133911499985597985, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.681198
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133911499985597985, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.1896558
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133911499985597985, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 148.884
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb5b12313071de84d84da008f2a97695, type: 3}
 --- !u!4 &7313616315627775059 stripped
