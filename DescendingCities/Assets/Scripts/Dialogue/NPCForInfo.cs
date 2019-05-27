@@ -14,7 +14,7 @@ public class NPCForInfo : MonoBehaviour
 
     private DialogueSystem dialogueSystem;
 
-    public string[] sentences;
+    public string sentence;
     public string Name;
 
    
@@ -24,6 +24,7 @@ public class NPCForInfo : MonoBehaviour
     void Start()
     {
         dialogueSystem = FindObjectOfType<DialogueSystem>();
+       
         
 
     }
@@ -35,13 +36,14 @@ public class NPCForInfo : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
+        dialogueSystem.isOwner = false;
         this.gameObject.GetComponent<NPCForInfo>().enabled = true;
         FindObjectOfType<DialogueSystem>().EnterRangeOfNPC();
         if ((other.gameObject.tag == "Player"))
         {
             this.gameObject.GetComponent<NPCForInfo>().enabled = true;
             dialogueSystem.Names = Name;
-            dialogueSystem.dialogueLines = sentences;
+            dialogueSystem.dialogueLines = splitToSentences(sentence);
             FindObjectOfType<DialogueSystem>().NPCName();
         }
     }
@@ -50,18 +52,17 @@ public class NPCForInfo : MonoBehaviour
     {
         FindObjectOfType<DialogueSystem>().OutOfRange();
         this.gameObject.GetComponent<NPCForInfo>().enabled = false;
-        if(!PlayerManagement.player.isAvailable() && (PlayerManagement.player.CurrTask.TaskID == 0
-            || PlayerManagement.player.CurrTask.TaskID == 1
-            || PlayerManagement.player.CurrTask.TaskID == 2
-            || PlayerManagement.player.CurrTask.TaskID == 3))
-        {
-  
-            PlayerManagement.player.CurrTask.Status = 2;
-        }
+      
            
     }
 
-  
+    public string[] splitToSentences(string s)
+    {
+        return s.Split('&');
 
-}
+
+
+    }
+
+    }
 

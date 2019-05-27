@@ -11,6 +11,7 @@ public class PlayerDirectional : MonoBehaviour {
     public bool died = false;
     public JoystickController joystick;
 
+
   
     
 

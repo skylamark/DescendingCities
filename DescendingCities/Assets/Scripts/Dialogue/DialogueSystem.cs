@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 
 public class DialogueSystem : MonoBehaviour
 {
-
+    public bool isOwner;
     public Text nameText;
     public Text dialogueText;
 
@@ -112,9 +112,9 @@ public class DialogueSystem : MonoBehaviour
                 yield return 0;
             }
 
-            
 
-            if(PlayerManagement.player.isAvailable() && currentOwner.Task.Status == 0)
+            Debug.Log(isOwner);
+            if(isOwner && PlayerManagement.player.isAvailable() && currentOwner.Task.Status == 0)
             {
                 acceptDeclineButtons.SetActive(true);
             }

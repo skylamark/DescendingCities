@@ -8,6 +8,7 @@ TagManager:
   - Building
   - CubeHouse
   - accept_decline
+  - Interactable
   layers:
   - Default
   - TransparentFX

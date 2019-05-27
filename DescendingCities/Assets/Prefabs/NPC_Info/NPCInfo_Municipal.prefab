@@ -72,9 +72,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChatBackGround: {fileID: 0}
   NPCCharacter: {fileID: 3149678735271151229}
-  sentences:
-  - start your own VvE
-  - 'so you can share costs and loan more money. '
+  sentence: Hi, what a beautiful day! & Good to see you
   Name: Municipality NPC
 --- !u!136 &6368260484980721866
 CapsuleCollider:

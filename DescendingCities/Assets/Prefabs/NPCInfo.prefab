@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5201462315782474488}
   m_Layer: 0
   m_Name: NPCInfo
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,7 +73,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChatBackGround: {fileID: 0}
   NPCCharacter: {fileID: 0}
-  sentences: []
+  sentence: 
   Name: 
 --- !u!114 &1737481569139944972
 MonoBehaviour:
@@ -95,7 +95,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6051477936687802161}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2

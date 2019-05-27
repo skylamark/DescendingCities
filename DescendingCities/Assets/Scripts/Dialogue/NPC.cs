@@ -20,7 +20,8 @@ public class NPC : MonoBehaviour
     {
         dialogueSystem = FindObjectOfType<DialogueSystem>();
         owner = GetComponent<Owner>();
-       
+        
+
     }
   
     void Update()
@@ -33,6 +34,7 @@ public class NPC : MonoBehaviour
     {
         if ((other.gameObject.tag == "Player"))
         {
+            dialogueSystem.isOwner = true;
             this.gameObject.GetComponent<NPC>().enabled = true;
             FindObjectOfType<DialogueSystem>().EnterRangeOfNPC();
             this.gameObject.GetComponent<NPC>().enabled = true;
@@ -43,7 +45,7 @@ public class NPC : MonoBehaviour
             if (owner.Task.Status == 0 && PlayerManagement.player.isAvailable())
             {
                 dialogueSystem.currentOwner = owner;
-                Debug.Log(owner.Name);
+
 
             }
         }
