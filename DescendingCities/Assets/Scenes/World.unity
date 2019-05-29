@@ -3191,12 +3191,12 @@ PrefabInstance:
     - target: {fileID: 3041038097876205647, guid: 39f75b62519693049b5ef68d1bdd24f9,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.000031907046
+      value: 0.00008243166
       objectReference: {fileID: 0}
     - target: {fileID: 3041038097876205647, guid: 39f75b62519693049b5ef68d1bdd24f9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000002151325
+      value: 0.00001545827
       objectReference: {fileID: 0}
     - target: {fileID: 6651953568097245654, guid: 39f75b62519693049b5ef68d1bdd24f9,
         type: 3}
@@ -5345,6 +5345,51 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7313616315627775068, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7313616315627775068, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7313616315627775068, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3151216631993473472, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: ToDoText
+      value: 
+      objectReference: {fileID: 1347125231}
+    - target: {fileID: 3151216631993473472, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: municipalityNPC
+      value: 
+      objectReference: {fileID: 1046073315}
+    - target: {fileID: 3151216631993473472, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: specialistNPC
+      value: 
+      objectReference: {fileID: 1552522533}
+    - target: {fileID: 1269684431836371523, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: ToDoText
+      value: 
+      objectReference: {fileID: 1347125231}
+    - target: {fileID: 1269684431836371523, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: municipalityNPC
+      value: 
+      objectReference: {fileID: 1046073315}
+    - target: {fileID: 1269684431836371523, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: specialistNPC
+      value: 
+      objectReference: {fileID: 1552522533}
     - target: {fileID: 4537478233599141836, guid: 727a4047769a0f242a997b246b1d3916,
         type: 3}
       propertyPath: ToDoText
@@ -5371,36 +5416,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1046073315}
     - target: {fileID: 786885623109000399, guid: 727a4047769a0f242a997b246b1d3916,
-        type: 3}
-      propertyPath: specialistNPC
-      value: 
-      objectReference: {fileID: 1552522533}
-    - target: {fileID: 1269684431836371523, guid: 727a4047769a0f242a997b246b1d3916,
-        type: 3}
-      propertyPath: ToDoText
-      value: 
-      objectReference: {fileID: 1347125231}
-    - target: {fileID: 1269684431836371523, guid: 727a4047769a0f242a997b246b1d3916,
-        type: 3}
-      propertyPath: municipalityNPC
-      value: 
-      objectReference: {fileID: 1046073315}
-    - target: {fileID: 1269684431836371523, guid: 727a4047769a0f242a997b246b1d3916,
-        type: 3}
-      propertyPath: specialistNPC
-      value: 
-      objectReference: {fileID: 1552522533}
-    - target: {fileID: 3151216631993473472, guid: 727a4047769a0f242a997b246b1d3916,
-        type: 3}
-      propertyPath: ToDoText
-      value: 
-      objectReference: {fileID: 1347125231}
-    - target: {fileID: 3151216631993473472, guid: 727a4047769a0f242a997b246b1d3916,
-        type: 3}
-      propertyPath: municipalityNPC
-      value: 
-      objectReference: {fileID: 1046073315}
-    - target: {fileID: 3151216631993473472, guid: 727a4047769a0f242a997b246b1d3916,
         type: 3}
       propertyPath: specialistNPC
       value: 
