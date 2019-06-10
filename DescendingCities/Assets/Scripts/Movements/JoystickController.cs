@@ -7,6 +7,7 @@ using UnityEngine.EventSystems;
 
 public class JoystickController : MonoBehaviour, IDragHandler, IPointerUpHandler, IPointerDownHandler
 {
+   
     private Image backgroundImage;
     private Image joystickImage;
     private Vector3 inputVector;
@@ -61,6 +62,7 @@ public class JoystickController : MonoBehaviour, IDragHandler, IPointerUpHandler
         joystickImage.rectTransform.anchoredPosition =
             new Vector3(inputVector.x * (backgroundImage.rectTransform.sizeDelta.x / 2),
             inputVector.z * (backgroundImage.rectTransform.sizeDelta.y / 2));
+        
     }
 
     public float Horizantal()

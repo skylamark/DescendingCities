@@ -26,7 +26,7 @@ public class ToDoText : MonoBehaviour
         {
             toDoUI.enabled = true;
             toDoText.enabled = true;
-            toDoText.text = "TO-DO: \nGo to " + player.CurrTask.Location;
+         //   toDoText.text = "TO-DO: \nGo to " + player.CurrTask.Location;
         }
         else
         {
