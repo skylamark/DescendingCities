@@ -4,39 +4,42 @@ using UnityEngine;
 using UnityEditor;
 
 [CustomEditor(typeof(BuildingGenerator))]
+[CanEditMultipleObjects]
 public class BuildingGeneratorController : Editor
 {
-    public bool showHouses;
-
     public override void OnInspectorGUI()
     {
         BuildingGenerator buildingGenerator = (BuildingGenerator)target;
         EditorGUILayout.LabelField("Cubes Collected:", buildingGenerator.cubeHouses.Length.ToString());
+        EditorGUILayout.LabelField("Cubes Stored:", buildingGenerator.storedCubes.Length.ToString());
+        EditorGUILayout.LabelField("Homes Stored:", buildingGenerator.storedHomes.Length.ToString());
 
-        if (GUILayout.Button("Collect CubeHouses"))
+        GUILayout.BeginHorizontal();
+        if (GUILayout.Button("Collect CubeHouses", GUILayout.Width(130f)))
         {
             buildingGenerator.CollectAllCubes();
         }
-        if (GUILayout.Button("Generate Houses"))
+        if (GUILayout.Button("Clear Selection", GUILayout.Width(130f)))
+        {
+            buildingGenerator.ClearSelectedCubes();
+        }
+        GUILayout.EndHorizontal();
+        GUILayout.BeginHorizontal();
+        if (GUILayout.Button("Generate Houses", GUILayout.Width(130f)))
         {
             buildingGenerator.ConvertToBuilding();
         }
-
-        if (showHouses)
+        
+        if (GUILayout.Button("Swith Visual", GUILayout.Width(130f)))
         {
-            if (GUILayout.Button("Show Cubes"))
-            {
-                showHouses = false;
-            }
-        } else {
-            if (GUILayout.Button("Show Houses"))
-            {
-                showHouses = true;
-            }
+            buildingGenerator.SwitchVisible();
         }
-
-        //base.OnInspectorGUI();
+        GUILayout.EndHorizontal();
+        if (GUILayout.Button("Destroy Generated Homes", GUILayout.Width(265f)))
+        {
+            buildingGenerator.DeleteGeneratedHouses();
+        }
+        base.OnInspectorGUI();
     }
-
 
 }

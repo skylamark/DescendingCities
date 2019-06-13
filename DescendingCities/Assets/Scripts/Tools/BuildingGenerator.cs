@@ -1,20 +1,36 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
+using Random = UnityEngine.Random;
 
 public class BuildingGenerator : MonoBehaviour
 {
     public GameObject[] cubeHouses;
-    public GameObject[] builtHouses;
-    //private GameObject[] buildingInProgress;
+    public GameObject[] storedCubes;
+    public GameObject[] storedHomes;
 
     [Header("Fixed House Dimensions")]
     public float floorHeight;
-    public float roofHeight;
     public float windowHeight;
     public float DoorHeight;
+    [Header("Building Pieces")]
+    public GameObject foundation;
+    public GameObject floor;
+    public GameObject door;
+    public GameObject hatch;
+    public GameObject[] windows;
+    public GameObject[] roofs;
+    public GameObject[] decorations;
+    public Material[] materialsHomes;
+    public Material[] materialCubeHome;
 
 
+    // Temporary internal variables
+    private GameObject houseParentObj;
+    private Transform houseTransform;
+    public bool switchActive = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,26 +43,225 @@ public class BuildingGenerator : MonoBehaviour
 
     }
 
+    /* Generator button functions */
     public void CollectAllCubes()
     {
         cubeHouses = GameObject.FindGameObjectsWithTag("CubeHouse");
+        for (int i = 0; i < cubeHouses.Length; i++)
+        {
+            cubeHouses[i].GetComponent<MeshRenderer>().material = materialCubeHome[1];
+            string temp = "CubeHome" + i.ToString();
+            cubeHouses[i].name = temp;
+        }
+    }
+
+    public void ClearSelectedCubes()
+    {
+        for (int i = 0; i < cubeHouses.Length; i++)
+        {
+            cubeHouses[i].GetComponent<MeshRenderer>().material = materialCubeHome[0];
+            cubeHouses[i] = null;
+            if (i == (cubeHouses.Length-1))
+            {
+                System.Array.Resize(ref cubeHouses, 0);
+                Debug.Log("Array cleared");
+            }
+        }
+    }
+
+    public void SwitchVisible()
+    {
+        if (switchActive) {
+            for (int i = 0; i < storedCubes.Length; i++)
+            {
+
+            }
+        }
+        if (!switchActive) {
+            for (int i = 0; i < storedCubes.Length; i++)
+            {
+
+            }
+        }
+    }
+
+
+    public void DeleteGeneratedHouses()
+    {
+        for (int i = 0; i < storedHomes.Length; i++)
+        {
+            DestroyImmediate(storedHomes[i]);
+            storedCubes[i].SetActive(true);
+            if (i == (storedHomes.Length - 1))
+            {
+                System.Array.Resize(ref storedHomes, 0);
+                System.Array.Resize(ref storedCubes, 0);
+            }
+        }
     }
 
     public void ConvertToBuilding()
     {
-        //foreach GameObject _house in cubeHouses
+        for (int i = 0; i < cubeHouses.Length; i++)
+        {
+            /* retreive values and set references*/
+            houseParentObj = cubeHouses[i].transform.parent.gameObject;
+            houseTransform = cubeHouses[i].transform;
+            float temp = cubeHouses[i].transform.localScale.y;
+            int homeHeight = Mathf.RoundToInt(temp);
 
+            /* Random Generation*/
+            int materialInt = Random.Range(0, materialsHomes.Length);
+            int roofInt = Random.Range(0, roofs.Length);
+            int decorationInt = Random.Range(0, decorations.Length);
+
+            //store cube
+            StoreCubeHouse(cubeHouses[i].gameObject, i);
+
+            /* Create Home Object at position and set parent*/
+            GameObject home = new GameObject("Home"){tag = "Home"};
+            home.transform.parent = houseParentObj.transform;
+            home.transform.localPosition = new Vector3(houseTransform.position.x, 0f, houseTransform.position.z);
+            home.transform.rotation = houseTransform.rotation;
+            StoreHome(home.gameObject, i);
+
+            //Basement
+            GameObject newFoundation = Instantiate(foundation, home.transform, false);
+            newFoundation.transform.localPosition = new Vector3(0f, -1.95f, 0f);
+            newFoundation.transform.localScale = new Vector3(1f, 1f, 1f);
+            newFoundation.GetComponent<MeshRenderer>().material = materialsHomes[materialInt];
+            newFoundation.name = "Foundation";
+
+            //floor 0
+            GameObject groundfloor = Instantiate(floor, newFoundation.transform, false);
+            groundfloor.transform.localPosition = new Vector3(0f, 2f, 0f);
+            groundfloor.transform.localScale = new Vector3(1f, 1f, 1f);
+            groundfloor.GetComponent<MeshRenderer>().material = materialsHomes[materialInt];
+            groundfloor.AddComponent<BoxCollider>();
+            BoxCollider col = groundfloor.GetComponent<BoxCollider>();
+            col.size = new Vector3(6f, cubeHouses[i].transform.localScale.y, 6f);
+            float calcColliderHeight = cubeHouses[i].transform.localScale.y / 2f;
+            col.center = new Vector3(0f, calcColliderHeight, 0f);
+            groundfloor.name = "Floor0";
+            GenerateDetails(groundfloor, materialInt, true);
+
+            // instantiate floors
+            if (homeHeight >= 6)
+            {
+                if (homeHeight > 6)
+                {
+                    GameObject firstfloor = Instantiate(floor, groundfloor.transform, false);
+                    firstfloor.transform.localPosition = new Vector3(0f, 3f, 0f);
+                    firstfloor.transform.localScale = new Vector3(1f, 1f, 1f);
+                    firstfloor.GetComponent<MeshRenderer>().material = materialsHomes[materialInt];
+                    firstfloor.name = "Floor1";
+                    GenerateDetails(firstfloor, materialInt,false);
+                }
+                else { AddRoof(groundfloor, materialInt, roofInt, floorHeight); }
+            }
+            if (homeHeight >= 9)
+            {
+                if (homeHeight > 9)
+                {
+                    GameObject secondfloor = Instantiate(floor, groundfloor.transform, false);
+                    secondfloor.transform.localPosition = new Vector3(0f, 6f, 0f);
+                    secondfloor.transform.localScale = new Vector3(1f, 1f, 1f);
+                    secondfloor.GetComponent<MeshRenderer>().material = materialsHomes[materialInt];
+                    secondfloor.name = "Floor2";
+                    GenerateDetails(secondfloor, materialInt, false );
+                }
+                else { AddRoof(groundfloor, materialInt, roofInt, (floorHeight * 2)); }
+
+            }
+            if (homeHeight >= 12)
+            {
+                if (homeHeight > 12)
+                {
+                    GameObject thirdfloor = Instantiate(floor, groundfloor.transform, false);
+                    thirdfloor.transform.localPosition = new Vector3(0f, 9f, 0f);
+                    thirdfloor.transform.localScale = new Vector3(1f, 1f, 1f);
+                    thirdfloor.GetComponent<MeshRenderer>().material = materialsHomes[materialInt];
+                    thirdfloor.name = "Floor3";
+                    GenerateDetails(thirdfloor, materialInt,false);
+                }
+                else { AddRoof(groundfloor, materialInt, roofInt, (floorHeight*3)); }
+            }
+
+        }
     }
 
-    public void ShowHouses()
+    void StoreCubeHouse(GameObject storedCube, int i)
     {
-    
+        if (storedCubes.Length != cubeHouses.Length) { System.Array.Resize(ref storedCubes, cubeHouses.Length); }
+        storedCubes.SetValue(storedCube, i);
+        storedCube.SetActive(false);
     }
 
-    public void ShowCubes()
+    void StoreHome(GameObject storedHome, int i)
     {
-    
+        if (storedHomes.Length != cubeHouses.Length) { System.Array.Resize(ref storedHomes, cubeHouses.Length); }
+        storedHomes.SetValue(storedHome, i);
     }
 
+    void GenerateDetails(GameObject parentObj, int matInt, bool makedoor)
+    {
+        int windowInt = Random.Range(0, windows.Length);
+        int doorPos=0;
+        if (makedoor)
+        {
+            doorPos = Random.Range(0, 3);
+        }
 
+
+        for (int i = 0; i < 3; i++)
+        {
+            Vector3 vector = new Vector3(0f,0f,0f);
+
+            if (i == 0) { vector = new Vector3(-2f, 0f, 3f);}
+            if (i == 1) { vector = new Vector3(0f, 0f, 3f); }
+            if (i == 2) { vector = new Vector3(2f, 0f, 3f); }
+
+            if (makedoor)
+            {
+                if (i == doorPos)
+                {
+                    Transform pop = parentObj.transform.parent;
+                    GameObject _door = Instantiate(door, pop, false);
+                    _door.transform.localPosition = vector;
+                    _door.transform.localPosition = new Vector3(_door.transform.localPosition.x, DoorHeight, _door.transform.localPosition.z);
+                    _door.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+                    _door.GetComponent<MeshRenderer>().material = materialsHomes[matInt];
+                    _door.name = "Door";
+                }
+                else
+                {
+                    GameObject _window = Instantiate(windows[windowInt], parentObj.transform, false);
+                    _window.transform.localPosition = vector;
+                    _window.transform.localPosition = new Vector3(_window.transform.localPosition.x, windowHeight, _window.transform.localPosition.z);
+                    _window.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+                    _window.GetComponent<MeshRenderer>().material = materialsHomes[matInt];
+                    _window.name = "Window";
+                }
+            }
+            else
+            {
+                GameObject _window = Instantiate(windows[windowInt], parentObj.transform, false);
+                _window.transform.localPosition = vector;
+                _window.transform.localPosition = new Vector3(_window.transform.localPosition.x, windowHeight, _window.transform.localPosition.z);
+                _window.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+                _window.GetComponent<MeshRenderer>().material = materialsHomes[matInt];
+                _window.name = "Window";
+            }
+        }
+
+    }
+
+    void AddRoof(GameObject parentObj, int _material, int _roofInt, float _roofHeight)
+    {
+        GameObject roof = Instantiate(roofs[_roofInt], parentObj.transform, false);
+        roof.transform.localPosition = new Vector3(0f, _roofHeight, 0f);
+        roof.transform.localScale = new Vector3(1f, 1f, 1f);
+        roof.GetComponent<MeshRenderer>().material = materialsHomes[_material];
+        roof.name = "Roof";
+    }
 }

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7028250329591719923}
   - component: {fileID: 7863859177219300953}
+  - component: {fileID: 4385016917591336424}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -43,15 +44,81 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 954d354e655c8ff448bc83108dae707d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  androidBuild: 0
-  pcBuild: 0
-  cameraObj: {fileID: 0}
+  platform: 0
   playerObj: {fileID: 0}
+  forceTutorial: 0
+  cameraObj: {fileID: 0}
+  cameraMiniMap: {fileID: 0}
   homeBttn: {fileID: 0}
   interactionBttn: {fileID: 0}
   progressBarBttn: {fileID: 0}
   minimapBttn: {fileID: 0}
   joystick: {fileID: 0}
   progressBar: {fileID: 0}
+  toDo: {fileID: 0}
   minimap: {fileID: 0}
   helpScreen: {fileID: 0}
+  fader: {fileID: 0}
+  pcHelp: {fileID: 0}
+  androidHelp: {fileID: 0}
+--- !u!114 &4385016917591336424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234807976870502773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe2ce12b29f05bc4bac682ba3fc7f641, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubeHouses:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  builtHouses: []
+  floorHeight: 3
+  windowHeight: 0.5
+  DoorHeight: 0
+  foundation: {fileID: 100000, guid: cc382864a3afe0a4ca110b2fea8ff33b, type: 3}
+  floor: {fileID: 100000, guid: 0352ae59e50566441ba159ce46854fdd, type: 3}
+  door: {fileID: 100000, guid: b217d48b2dea8064aa917bd4140d829b, type: 3}
+  hatch: {fileID: 100000, guid: db5d397a6c60d8b49890b988d9ddfeb9, type: 3}
+  windows:
+  - {fileID: 100000, guid: b3c9e8a2c7eeddd4fb5beac9c5a46780, type: 3}
+  - {fileID: 100000, guid: cb00f5aef57a9a044bebc6b57d06dab9, type: 3}
+  - {fileID: 100000, guid: 5cbeb9f4b212d3f40bcce551fe33d5c8, type: 3}
+  roofs:
+  - {fileID: 100000, guid: 7673aec2e82eb5045a51866d780ed9ea, type: 3}
+  - {fileID: 100000, guid: eeea705533d089849912dc834a02909f, type: 3}
+  - {fileID: 100000, guid: eaef5335372600545a7ecc0a730b7c64, type: 3}
+  - {fileID: 100000, guid: 4c0ee30f0e0b65546a7972803f345e17, type: 3}
+  decorations:
+  - {fileID: 100000, guid: ea5a6747e28d3854493e2b55cab405d9, type: 3}
+  - {fileID: 100000, guid: f67fb162018f5754098982b660ce069d, type: 3}
+  materialsHomes:
+  - {fileID: 2100000, guid: d2e6ecafeb23f894398546b663ff90d3, type: 2}
+  - {fileID: 2100000, guid: 774a7b94a1edf9f47a832c60b519448b, type: 2}
+  - {fileID: 2100000, guid: 298beb212b140954699ef30ce36dd418, type: 2}
+  materialCubeHome:
+  - {fileID: 2100000, guid: 6bc7fdaf4dcb02141a6ad932a645af59, type: 2}
+  - {fileID: 2100000, guid: 98a47ed34e5311741acb92d6df2e7ce2, type: 2}
