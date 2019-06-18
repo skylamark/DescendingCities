@@ -2103,7 +2103,12 @@ PrefabInstance:
     - target: {fileID: 6051477936687802161, guid: 5e4eb5357c7f0c34f9a3feab3046b06c,
         type: 3}
       propertyPath: m_Name
-      value: NPCInfo_Specialist
+      value: NPCInfo_Contractor
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051477936687802161, guid: 5e4eb5357c7f0c34f9a3feab3046b06c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8142502326925526134, guid: 5e4eb5357c7f0c34f9a3feab3046b06c,
         type: 3}
@@ -2173,7 +2178,7 @@ PrefabInstance:
     - target: {fileID: 3419106051078992454, guid: 5e4eb5357c7f0c34f9a3feab3046b06c,
         type: 3}
       propertyPath: Name
-      value: Specialist
+      value: Contractor
       objectReference: {fileID: 0}
     - target: {fileID: 3419106051078992454, guid: 5e4eb5357c7f0c34f9a3feab3046b06c,
         type: 3}
@@ -2194,6 +2199,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mass
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5201462315782474488, guid: 5e4eb5357c7f0c34f9a3feab3046b06c,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7602466666660444992, guid: 5e4eb5357c7f0c34f9a3feab3046b06c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8648266009349116831, guid: 5e4eb5357c7f0c34f9a3feab3046b06c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e4eb5357c7f0c34f9a3feab3046b06c, type: 3}
@@ -3191,12 +3211,12 @@ PrefabInstance:
     - target: {fileID: 3041038097876205647, guid: 39f75b62519693049b5ef68d1bdd24f9,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.00008243166
+      value: -0.0000055071305
       objectReference: {fileID: 0}
     - target: {fileID: 3041038097876205647, guid: 39f75b62519693049b5ef68d1bdd24f9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00001545827
+      value: 0.000010531826
       objectReference: {fileID: 0}
     - target: {fileID: 6651953568097245654, guid: 39f75b62519693049b5ef68d1bdd24f9,
         type: 3}
@@ -4857,6 +4877,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Indoors
       objectReference: {fileID: 0}
+    - target: {fileID: 4571995062337461591, guid: 4e59e24715af99c449be9e02da09090f,
+        type: 3}
+      propertyPath: ChatBackGround
+      value: 
+      objectReference: {fileID: 882368213}
+    - target: {fileID: 4571995062337461591, guid: 4e59e24715af99c449be9e02da09090f,
+        type: 3}
+      propertyPath: sentence
+      value: Hi, how can I help you?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4571995062337461591, guid: 4e59e24715af99c449be9e02da09090f,
+        type: 3}
+      propertyPath: Name
+      value: Municipality
+      objectReference: {fileID: 0}
     - target: {fileID: 1658499556466952774, guid: 4e59e24715af99c449be9e02da09090f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5032,11 +5067,6 @@ PrefabInstance:
       propertyPath: buttonTeleport
       value: 
       objectReference: {fileID: 2307647986674965659}
-    - target: {fileID: 4571995062337461591, guid: 4e59e24715af99c449be9e02da09090f,
-        type: 3}
-      propertyPath: ChatBackGround
-      value: 
-      objectReference: {fileID: 882368213}
     - target: {fileID: 4898452398015940640, guid: 4e59e24715af99c449be9e02da09090f,
         type: 3}
       propertyPath: m_TagString
@@ -5414,12 +5444,232 @@ PrefabInstance:
         type: 3}
       propertyPath: municipalityNPC
       value: 
-      objectReference: {fileID: 1046073315}
+      objectReference: {fileID: 1552522533}
     - target: {fileID: 786885623109000399, guid: 727a4047769a0f242a997b246b1d3916,
         type: 3}
       propertyPath: specialistNPC
       value: 
       objectReference: {fileID: 1552522533}
+    - target: {fileID: 786885623109000399, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: concratorNPC
+      value: 
+      objectReference: {fileID: 1552522533}
+    - target: {fileID: 5704849396371706665, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: name
+      value: Ester
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284184168083746696, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: name
+      value: Murat
+      objectReference: {fileID: 0}
+    - target: {fileID: 3276704078081893537, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: name
+      value: Josef
+      objectReference: {fileID: 0}
+    - target: {fileID: 3394862778338251881, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: name
+      value: Kees
+      objectReference: {fileID: 0}
+    - target: {fileID: 7313616315627775059, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7313616315627775059, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 231626963271114680, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 380664889005630233, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7313616315627775065, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7429503424726013073, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 231626961382884904, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 380664890289355401, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387963488362059923, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503851145203902555, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254473118062165880, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372755582501916592, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5934236439773557311, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5099592091118556692, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5782461201749934839, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664568340651109045, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6825116415973338907, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584142997179647129, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397694179812479930, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8169392691734739000, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806349523391680852, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3461058278318065079, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636823838506099100, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3924506538057365782, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7313616315627775058, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7313616315954150857, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7429503423442816257, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5934908960541012215, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: InitialConversation
+      value: 'My house is starting to show cracks in the shared walls.&I don''t know
+        what causes this.&Can you find out what can I do?&Maybe a contractor can help. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5934908960541012215, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: WaitingForSolution
+      value: I am looking forward to the information& you will find for me at the
+        contractor!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5934908960541012215, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: CompletionMessage
+      value: Thanks a lot!&Now I know that I need to repair, my house foundations
+        with neighbor buildings&and detach buildings so they affect each other.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5934908960541012215, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: location
+      value: Contractor
+      objectReference: {fileID: 0}
+    - target: {fileID: 5934908960541012215, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: reward
+      value: "Rebuild foundation to match the neighbours\u2019 or separate buildings
+        and rebuild walls."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5780582375045808191, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: CompletionMessage
+      value: Thanks a lot, Seeing everyone in VvE is great!&Our foundation problem
+        will be solved a lot easier now!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5780582375045808191, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: reward
+      value: Create a VvE.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2359594344092498475, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2511671344233335523, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822357113098735011, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941284366373204226, guid: 727a4047769a0f242a997b246b1d3916,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 727a4047769a0f242a997b246b1d3916, type: 3}
 --- !u!114 &5517438466186725671 stripped
