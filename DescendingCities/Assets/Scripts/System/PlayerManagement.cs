@@ -11,6 +11,7 @@ public class PlayerManagement : MonoBehaviour
     void Start()
     {
         currLevel = CurrentLevel;
+        player.Inventory = new List<string>();
         player.CurrTask = null;
        
        

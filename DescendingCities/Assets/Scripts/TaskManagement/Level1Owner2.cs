@@ -5,17 +5,11 @@ using UnityEngine.UI;
 
 public class Level1Owner2 : MonoBehaviour
 {
-    public Owner owner1;
+   
     public Owner owner2;
-    public Owner owner3;
-    public Owner owner4;
-
-    bool talkedWith1 = false;
-    bool talkedWith3 = false;
-    bool talkedWith4 = false;
-
-    public NPCForInfo municipalityNPC;
-    public NPCForInfo specialistNPC;
+  
+    
+    public NPCForInfo concratorNPC;
 
     public int step;
 
@@ -42,11 +36,12 @@ public class Level1Owner2 : MonoBehaviour
             if (step == 0)
             {
 
-                ToDoText.text = "TO-DO:\nGo to municipality";
-                municipalityNPC.sentence = "If you want to make archive research,&I can give you building blueprints and remodeling permits.&But you may need a specialist to understand them.";
+                ToDoText.text = "TO-DO:\nGo to a contractor";
+                concratorNPC.sentence = "So you have some problems with cracks on shared walls.&" +
+                    "This is due to different types of foundation between the buildings, one sinks faster than the other.&" +
+                    "Rebuild foundation to match the neighbours’ or separate buildings and rebuild walls. So they affect each other.";
 
-                Debug.Log(interactedName);
-                if (interactedName == municipalityNPC.gameObject.name)
+                if (interactedName == concratorNPC.gameObject.name)
                 {
                     step = 1;
                 }
@@ -54,58 +49,13 @@ public class Level1Owner2 : MonoBehaviour
             }
             if (step == 1)
             {
-                ToDoText.text = "TO-DO:\nGo to specialist";
-                municipalityNPC.sentence = "Hi, what a beautiful day!";
-                specialistNPC.sentence = "According to these documents you need bla bla bla";
-
-                if (interactedName == specialistNPC.gameObject.name)
-                {
-                    step = 2;
-                }
-            }
-            if (step == 2)
-            {
                 ToDoText.text = "TO-DO:\nReturn " + owner2.Name;
-                specialistNPC.sentence = "Hi, what a beautiful day!";
-                owner2.Task.WaitingForSolution = "So, we need bla bla. &Can you please inform other owner about this?";
-                if (interactedName == owner2.gameObject.name)
-                {
-                    step = 3;
-                    owner1.Task.TellPlayerHeIsBusy = "Thanks for info, I think we need a expert to solve this.";
-                    owner3.Task.TellPlayerHeIsBusy = "Thanks for info, I think we need a expert to solve this.";
-                    owner4.Task.TellPlayerHeIsBusy = "Thanks for info, I think we need a expert to solve this.";
-                }
-            }
-            if (step == 3)
-            {
-                ToDoText.text = "TO-DO:\nInform all owners";
-                owner2.Task.WaitingForSolution = "I am looking forward for results";
-
-                if (interactedName == owner1.gameObject.name)
-                {
-                    talkedWith1 = true;
-                    owner1.Task.TellPlayerHeIsBusy = "You seem busy";
-                }
-                if (interactedName == owner3.gameObject.name)
-                {
-                    talkedWith3 = true;
-                    owner3.Task.TellPlayerHeIsBusy = "You seem busy";
-                }
-                if (interactedName == owner4.gameObject.name)
-                {
-                    talkedWith4 = true;
-                    owner4.Task.TellPlayerHeIsBusy = "You seem busy";
-                }
-                if (talkedWith1 && talkedWith3 && talkedWith4)
-                {
-                    step = 4;
-                }
-            }
-            if (step == 4)
-            {
-                ToDoText.text = "TO-DO:\nReturn " + owner2.Name;
+                concratorNPC.sentence = "Hi, what a beautiful day!";
                 owner2.Task.status = 2;
             }
+            
+          
+
         }
 
     }
