@@ -30,14 +30,14 @@ public class BuildingGeneratorController : Editor
             buildingGenerator.ConvertToBuilding();
         }
         
-        if (GUILayout.Button("Swith Visual", GUILayout.Width(130f)))
-        {
-            buildingGenerator.SwitchVisible();
-        }
-        GUILayout.EndHorizontal();
-        if (GUILayout.Button("Destroy Generated Homes", GUILayout.Width(265f)))
+        if (GUILayout.Button("Destroy Homes", GUILayout.Width(130f)))
         {
             buildingGenerator.DeleteGeneratedHouses();
+        }
+        GUILayout.EndHorizontal();
+        if (GUILayout.Button("Finalize Construction *PERMANENT*", GUILayout.Width(265f)))
+        {
+            buildingGenerator.FinalizeConstruction();
         }
         base.OnInspectorGUI();
     }

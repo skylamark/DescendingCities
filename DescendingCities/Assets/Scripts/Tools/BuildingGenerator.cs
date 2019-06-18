@@ -53,10 +53,12 @@ public class BuildingGenerator : MonoBehaviour
             string temp = "CubeHome" + i.ToString();
             cubeHouses[i].name = temp;
         }
+        if (cubeHouses.Length == 0) { Debug.LogWarning("No Cubes in scene, make sure they have the tag 'CubeHouse'"); }
     }
 
     public void ClearSelectedCubes()
     {
+        if (cubeHouses.Length == 0) { Debug.LogWarning("No Cubes Selected, 'Press Collect CubesHouses'"); }
         for (int i = 0; i < cubeHouses.Length; i++)
         {
             cubeHouses[i].GetComponent<MeshRenderer>().material = materialCubeHome[0];
@@ -68,23 +70,6 @@ public class BuildingGenerator : MonoBehaviour
             }
         }
     }
-
-    public void SwitchVisible()
-    {
-        if (switchActive) {
-            for (int i = 0; i < storedCubes.Length; i++)
-            {
-
-            }
-        }
-        if (!switchActive) {
-            for (int i = 0; i < storedCubes.Length; i++)
-            {
-
-            }
-        }
-    }
-
 
     public void DeleteGeneratedHouses()
     {
@@ -100,8 +85,19 @@ public class BuildingGenerator : MonoBehaviour
         }
     }
 
+    public void FinalizeConstruction()
+    {
+        for (int i = 0; i < storedCubes.Length; i++)
+        {
+            DestroyImmediate(storedCubes[i]);
+            if (i == storedCubes.Length) { System.Array.Resize(ref storedCubes, 0); }
+        }
+    }
+
+
     public void ConvertToBuilding()
     {
+        if (cubeHouses.Length == 0) { Debug.LogWarning("No Cubes Selected, 'Press Collect CubesHouses'"); } else 
         for (int i = 0; i < cubeHouses.Length; i++)
         {
             /* retreive values and set references*/
@@ -121,7 +117,7 @@ public class BuildingGenerator : MonoBehaviour
             /* Create Home Object at position and set parent*/
             GameObject home = new GameObject("Home"){tag = "Home"};
             home.transform.parent = houseParentObj.transform;
-            home.transform.localPosition = new Vector3(houseTransform.position.x, 0f, houseTransform.position.z);
+            home.transform.localPosition = new Vector3(0f,0f,0f);
             home.transform.rotation = houseTransform.rotation;
             StoreHome(home.gameObject, i);
 
@@ -186,6 +182,7 @@ public class BuildingGenerator : MonoBehaviour
                 }
                 else { AddRoof(groundfloor, materialInt, roofInt, (floorHeight*3)); }
             }
+            if (i == (cubeHouses.Length-1)) { System.Array.Resize(ref cubeHouses, 0); }
 
         }
     }
@@ -236,8 +233,10 @@ public class BuildingGenerator : MonoBehaviour
                 else
                 {
                     GameObject _window = Instantiate(windows[windowInt], parentObj.transform, false);
+                    float windowHeightY;
+                    if (windowInt == 1) { windowHeightY = windowHeight + 0.7f; } else { windowHeightY = windowHeight; }
                     _window.transform.localPosition = vector;
-                    _window.transform.localPosition = new Vector3(_window.transform.localPosition.x, windowHeight, _window.transform.localPosition.z);
+                    _window.transform.localPosition = new Vector3(_window.transform.localPosition.x, windowHeightY, _window.transform.localPosition.z);
                     _window.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
                     _window.GetComponent<MeshRenderer>().material = materialsHomes[matInt];
                     _window.name = "Window";
@@ -246,8 +245,10 @@ public class BuildingGenerator : MonoBehaviour
             else
             {
                 GameObject _window = Instantiate(windows[windowInt], parentObj.transform, false);
+                float windowHeightY;
+                if (windowInt == 1) { windowHeightY = windowHeight + 0.7f; } else { windowHeightY = windowHeight; }
                 _window.transform.localPosition = vector;
-                _window.transform.localPosition = new Vector3(_window.transform.localPosition.x, windowHeight, _window.transform.localPosition.z);
+                _window.transform.localPosition = new Vector3(_window.transform.localPosition.x, windowHeightY, _window.transform.localPosition.z);
                 _window.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
                 _window.GetComponent<MeshRenderer>().material = materialsHomes[matInt];
                 _window.name = "Window";
