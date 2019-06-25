@@ -92,8 +92,7 @@ MonoBehaviour:
   owner2: {fileID: 3276704078081893537}
   owner3: {fileID: 5284184168083746696}
   owner4: {fileID: 5704849396371706665}
-  municipalityNPC: {fileID: 7804859258424668147, guid: d0b84ee23a4f41f4b8133bff99b6cd0a,
-    type: 3}
+  municipalityNPC: {fileID: 0}
   specialistNPC: {fileID: 0}
   step: 0
   ToDoText: {fileID: 0}
@@ -126,6 +125,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7664466203184502446}
     m_Modifications:
+    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_Name
+      value: Owner4
+      objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -181,11 +185,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: m_Name
-      value: Owner4
-      objectReference: {fileID: 0}
     - target: {fileID: 5133911499985597985, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -226,6 +225,11 @@ PrefabInstance:
       propertyPath: task
       value: 
       objectReference: {fileID: 3463139411408390015}
+    - target: {fileID: 571861493617065503, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_Radius
+      value: 2.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: TaskID
@@ -320,6 +324,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7664466203184502446}
     m_Modifications:
+    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_Name
+      value: Owner3
+      objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -375,11 +384,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: m_Name
-      value: Owner3
-      objectReference: {fileID: 0}
     - target: {fileID: 5133911499985597985, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -420,6 +424,11 @@ PrefabInstance:
       propertyPath: task
       value: 
       objectReference: {fileID: 3922926920180612062}
+    - target: {fileID: 571861493617065503, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_Radius
+      value: 2.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: TaskID
@@ -514,6 +523,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7664466203184502446}
     m_Modifications:
+    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_Name
+      value: Owner2
+      objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -569,11 +583,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: m_Name
-      value: Owner2
-      objectReference: {fileID: 0}
     - target: {fileID: 5133911499985597985, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -614,6 +623,11 @@ PrefabInstance:
       propertyPath: task
       value: 
       objectReference: {fileID: 5934908960541012215}
+    - target: {fileID: 571861493617065503, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_Radius
+      value: 2.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: TaskID
@@ -708,6 +722,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7664466203184502446}
     m_Modifications:
+    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_Name
+      value: Owner1
+      objectReference: {fileID: 0}
     - target: {fileID: 571861493617065489, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -763,11 +782,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 571861493617065499, guid: cb5b12313071de84d84da008f2a97695,
-        type: 3}
-      propertyPath: m_Name
-      value: Owner1
-      objectReference: {fileID: 0}
     - target: {fileID: 5133911499985597985, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -808,6 +822,11 @@ PrefabInstance:
       propertyPath: task
       value: 
       objectReference: {fileID: 5780582375045808191}
+    - target: {fileID: 571861493617065503, guid: cb5b12313071de84d84da008f2a97695,
+        type: 3}
+      propertyPath: m_Radius
+      value: 2.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3650245282069158525, guid: cb5b12313071de84d84da008f2a97695,
         type: 3}
       propertyPath: InitialConversation

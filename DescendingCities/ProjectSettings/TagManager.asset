@@ -10,6 +10,7 @@ TagManager:
   - accept_decline
   - Interactable
   - Home
+  - AVB
   layers:
   - Default
   - TransparentFX
