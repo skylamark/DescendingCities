@@ -280,11 +280,10 @@ public class BuildingGenerator : MonoBehaviour
         roof.GetComponent<MeshRenderer>().material = materialsHomes[_material];
         roof.name = "Roof";
         AddToAvb(roof);
-        AddDecorations(roof, _material, _decoInt);
-
         int windowInt = Random.Range(0, windows.Length);
         if (_roofInt != 3)
         {
+            AddDecorations(roof, _material, _decoInt);
             GameObject roofWindow = Instantiate(windows[windowInt], roof.transform, false);
             float windowHeightY;
             if (windowInt == 1) { windowHeightY = windowHeight + 0.7f; } else { windowHeightY = windowHeight; }
