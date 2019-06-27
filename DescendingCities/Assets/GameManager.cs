@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
     public GameObject fader;
     public GameObject pcHelp;
     public GameObject androidHelp;
+    public GameObject information;
 
 
 
