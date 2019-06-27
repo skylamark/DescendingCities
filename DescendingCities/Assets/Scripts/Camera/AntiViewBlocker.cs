@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -23,7 +24,11 @@ public class AntiViewBlocker : MonoBehaviour
     public void Disable()
     {
         Debug.Log("Updating...");
-        gameObject.GetComponent<MeshRenderer>().enabled = false;
+        MeshRenderer thisObj = gameObject.GetComponent<MeshRenderer>();
+        if (thisObj != null)
+        {
+            gameObject.GetComponent<MeshRenderer>().enabled = false;
+        }
         foreach (MeshRenderer _mr in renderer)
         {
             _mr.enabled = false;
@@ -34,7 +39,11 @@ public class AntiViewBlocker : MonoBehaviour
     public void Enable()
     {
         Debug.Log("Updating...");
-        gameObject.GetComponent<MeshRenderer>().enabled = true;
+        MeshRenderer thisObj = gameObject.GetComponent<MeshRenderer>();
+        if (thisObj != null)
+        {
+            gameObject.GetComponent<MeshRenderer>().enabled = true;
+        }
         foreach (MeshRenderer _mr in renderer)
         {
             _mr.enabled = true;

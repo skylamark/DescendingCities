@@ -113,6 +113,7 @@ public class BuildingGenerator : MonoBehaviour
                 int decorationInt = Random.Range(0, decorations.Length);
                 int details = Random.Range(0,0);
                 int decoInt = Random.Range(0, decorations.Length);
+                int windowInt = Random.Range(0, windows.Length);
 
                 //store cube
                 StoreCubeHouse(cubeHouses[i].gameObject, i);
@@ -145,7 +146,7 @@ public class BuildingGenerator : MonoBehaviour
                 col.center = new Vector3(0f, calcColliderHeight, 0f);
                 groundfloor.name = "Floor0";
                 groundfloor.tag = "AVB";
-                GenerateDetails(groundfloor, materialInt, true);
+                GenerateDetails(groundfloor, materialInt, windowInt, true);
 
                 // instantiate floors
                 if (homeHeight >= 6)
@@ -157,7 +158,7 @@ public class BuildingGenerator : MonoBehaviour
                         firstfloor.transform.localScale = new Vector3(1f, 1f, 1f);
                         firstfloor.GetComponent<MeshRenderer>().material = materialsHomes[materialInt];
                         firstfloor.name = "Floor1";
-                        GenerateDetails(firstfloor, materialInt, false);
+                        GenerateDetails(firstfloor, materialInt, windowInt, false);
                         AddDecorations(firstfloor, materialInt, decoInt);
                         AddToAvb(firstfloor);
                     }
@@ -172,7 +173,7 @@ public class BuildingGenerator : MonoBehaviour
                         secondfloor.transform.localScale = new Vector3(1f, 1f, 1f);
                         secondfloor.GetComponent<MeshRenderer>().material = materialsHomes[materialInt];
                         secondfloor.name = "Floor2";
-                        GenerateDetails(secondfloor, materialInt, false);
+                        GenerateDetails(secondfloor, materialInt, windowInt, false);
                         AddDecorations(secondfloor, materialInt, decoInt);
                         AddToAvb(secondfloor);
                     }
@@ -188,7 +189,7 @@ public class BuildingGenerator : MonoBehaviour
                         thirdfloor.transform.localScale = new Vector3(1f, 1f, 1f);
                         thirdfloor.GetComponent<MeshRenderer>().material = materialsHomes[materialInt];
                         thirdfloor.name = "Floor3";
-                        GenerateDetails(thirdfloor, materialInt, false);
+                        GenerateDetails(thirdfloor, materialInt, windowInt, false);
                         AddDecorations(thirdfloor, materialInt, decoInt);
                         AddToAvb(thirdfloor);
                     }
@@ -213,9 +214,8 @@ public class BuildingGenerator : MonoBehaviour
         storedHomes.SetValue(storedHome, i);
     }
 
-    void GenerateDetails(GameObject parentObj, int matInt, bool makedoor)
+    void GenerateDetails(GameObject parentObj, int matInt, int windowInt, bool makedoor)
     {
-        int windowInt = Random.Range(0, windows.Length);
         int doorPos=0;
         if (makedoor)
         {
@@ -314,7 +314,7 @@ public class BuildingGenerator : MonoBehaviour
                     float  _offset = -2.5f + i;
                     decoration = Instantiate(decorations[_decoInt], _objParent.transform, false);
                     decoration.transform.localPosition = new Vector3(_offset, -0.25f, 3f);
-                    decoration.transform.localScale = new Vector3(1f, 1f, 1f);
+                    decoration.transform.localScale = new Vector3(.7f, .7f, .7f);
                     decoration.GetComponent<MeshRenderer>().material = materialsHomes[_matInt];
                     AddToAvb(decoration);
                 }
