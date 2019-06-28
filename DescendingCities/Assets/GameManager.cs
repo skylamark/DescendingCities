@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
     public GameObject pcHelp;
     public GameObject androidHelp;
     public GameObject information;
-
+    public GameObject informationContent;
 
 
 

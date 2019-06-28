@@ -62,6 +62,8 @@ MonoBehaviour:
   fader: {fileID: 0}
   pcHelp: {fileID: 0}
   androidHelp: {fileID: 0}
+  information: {fileID: 0}
+  informationContent: {fileID: 0}
 --- !u!114 &4385016917591336424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,7 +147,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4921515892154089665
 Transform:
   m_ObjectHideFlags: 0
@@ -172,3 +174,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d778af80b82c7a34492f95ca96bd8def, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tutorialState: 0
+  managerObj: {fileID: 7863859177219300953}
+  stepComplete: 0
+  infoMessages:
+  - 'Welkom bij Heel Holland Zakt.
+
+
+    Deze applicatie is nog in het begin van ontwikkeling.
+
+    Feedback word gewaardeerd en bedankt voor Uw tijd!
+
+
+    Vriendelijke groet,
+
+    Hatice nur Agba, Carlos Klazinga & Thomas Breijer
+
+
+    Opdrachtgever: Antea Group
+
+    Universiteiten: Abdullah Gul University, Saxion, Stavanger University
+
+    Medemogelijk gemaakt door: Europese Unie, Erasmus Plus, Epic'
+  - 
+  - 
+  - 
+  - 
