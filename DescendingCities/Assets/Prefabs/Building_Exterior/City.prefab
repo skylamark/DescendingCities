@@ -18236,15 +18236,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 829792921480563479, guid: f02b67634f35b944c8d55347f3bb8d25,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 29
-      objectReference: {fileID: 0}
     - target: {fileID: 829792922054477639, guid: f02b67634f35b944c8d55347f3bb8d25,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 829792921480563479, guid: f02b67634f35b944c8d55347f3bb8d25,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 29
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f02b67634f35b944c8d55347f3bb8d25, type: 3}
@@ -18402,6 +18402,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3873884994601334974, guid: e00a420fdb6665d4aab996fed685680a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 29
+      objectReference: {fileID: 0}
     - target: {fileID: 5273084440218577569, guid: e00a420fdb6665d4aab996fed685680a,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18411,11 +18416,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3873884994601334974, guid: e00a420fdb6665d4aab996fed685680a,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 29
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e00a420fdb6665d4aab996fed685680a, type: 3}
@@ -23442,15 +23442,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 829792921480563479, guid: f02b67634f35b944c8d55347f3bb8d25,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 29
-      objectReference: {fileID: 0}
     - target: {fileID: 829792922054477639, guid: f02b67634f35b944c8d55347f3bb8d25,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 829792921480563479, guid: f02b67634f35b944c8d55347f3bb8d25,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 29
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f02b67634f35b944c8d55347f3bb8d25, type: 3}
@@ -34933,6 +34933,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3873884994601334974, guid: e00a420fdb6665d4aab996fed685680a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 29
+      objectReference: {fileID: 0}
     - target: {fileID: 5273084440218577569, guid: e00a420fdb6665d4aab996fed685680a,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -34942,11 +34947,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3873884994601334974, guid: e00a420fdb6665d4aab996fed685680a,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 29
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e00a420fdb6665d4aab996fed685680a, type: 3}

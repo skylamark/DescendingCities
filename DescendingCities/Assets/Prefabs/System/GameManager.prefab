@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 954d354e655c8ff448bc83108dae707d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platform: 1
+  platform: 0
   playerObj: {fileID: 0}
   forceTutorial: 0
   cameraObj: {fileID: 0}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 765273093099466561}
   - component: {fileID: 2293871472908962033}
   - component: {fileID: 223100377668651545}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Road_Crossing
   m_TagString: Untagged
   m_Icon: {fileID: 0}

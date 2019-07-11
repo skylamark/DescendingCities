@@ -21,7 +21,7 @@ public class AVBTrigger : MonoBehaviour
         if (other.tag == "AVB")
         {
             other.GetComponent<AntiViewBlocker>().Disable();
-            Debug.Log("MAke building Dissapear");
+            //Debug.Log("MAke building Dissapear");
         }
 
     }
@@ -32,7 +32,7 @@ public class AVBTrigger : MonoBehaviour
         if (other.tag == "AVB")
         {
             other.GetComponent<AntiViewBlocker>().Enable();
-            Debug.Log("MAke building Appear");
+            //Debug.Log("MAke building Appear");
         }
     }
 }

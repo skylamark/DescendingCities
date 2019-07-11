@@ -23,7 +23,7 @@ public class AntiViewBlocker : MonoBehaviour
 
     public void Disable()
     {
-        Debug.Log("Updating...");
+        //Debug.Log("Updating...");
         MeshRenderer thisObj = gameObject.GetComponent<MeshRenderer>();
         if (thisObj != null)
         {
@@ -33,12 +33,12 @@ public class AntiViewBlocker : MonoBehaviour
         {
             _mr.enabled = false;
         }
-        Debug.Log("Done");
+        //Debug.Log("Done");
     }
 
     public void Enable()
     {
-        Debug.Log("Updating...");
+        //Debug.Log("Updating...");
         MeshRenderer thisObj = gameObject.GetComponent<MeshRenderer>();
         if (thisObj != null)
         {
@@ -48,6 +48,6 @@ public class AntiViewBlocker : MonoBehaviour
         {
             _mr.enabled = true;
         }
-        Debug.Log("Done");
+        //Debug.Log("Done");
     }
 }
