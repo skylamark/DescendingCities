@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 808248233814541904}
   - component: {fileID: 4983069791466411504}
   - component: {fileID: 1503943815259432342}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Road_Straight_9x9
   m_TagString: Untagged
   m_Icon: {fileID: 0}

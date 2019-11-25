@@ -64,7 +64,7 @@ public class Teleporter : MonoBehaviour
     {
         uI_Fader.FadeIn();
         Invoke("TeleportObject", 1.5f);
-        objToTeleport.GetComponent<NavMeshAgent>().enabled = false;
+        //objToTeleport.GetComponent<NavMeshAgent>().enabled = false;
     }
 
     public void TeleportObject()
@@ -72,7 +72,7 @@ public class Teleporter : MonoBehaviour
         Debug.Log("Teleported");
         objToTeleport.transform.position = teleportTargetLocation.transform.position;
         objToTeleport.transform.rotation = teleportTargetLocation.transform.rotation;
-        objToTeleport.GetComponent<NavMeshAgent>().enabled = true;
+        //objToTeleport.GetComponent<NavMeshAgent>().enabled = true;
         uI_Fader.FadeOut(0.5f);
 
     }

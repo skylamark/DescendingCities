@@ -32,6 +32,7 @@ public class AntiViewBlocker : MonoBehaviour
         foreach (MeshRenderer _mr in renderer)
         {
             _mr.enabled = false;
+
         }
         //Debug.Log("Done");
     }
