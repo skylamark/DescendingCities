@@ -159,9 +159,9 @@ MonoBehaviour:
   defaultLanguage: 0
   defaultVoiceLanguage: 0
   defaultShowSubtitles: 0
-  defaultSfxVolume: 0.9
-  defaultMusicVolume: 0.6
-  defaultSpeechVolume: 1
+  defaultSfxVolume: 0.585535
+  defaultMusicVolume: 0.53869194
+  defaultSpeechVolume: 0.8946975
   showDebugLogs: 0
   printActionCommentsInConsole: 0
   showActiveActionLists: 0
