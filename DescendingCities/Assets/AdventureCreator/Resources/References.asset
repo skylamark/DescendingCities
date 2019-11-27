@@ -20,4 +20,4 @@ MonoBehaviour:
   speechManager: {fileID: 11400000, guid: 88eafdc9ce54ae84e92cf663fb8f96d9, type: 2}
   cursorManager: {fileID: 11400000, guid: 4a698659ba1ec3f4798700a324f4ef37, type: 2}
   menuManager: {fileID: 11400000, guid: 61db9ebadb359b94a8e4655e55dd2aef, type: 2}
-  viewingMenuManager: 0
+  viewingMenuManager: 1

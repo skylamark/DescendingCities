@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: EdgeDetection
   m_Shader: {fileID: 4800000, guid: a3cc8f42e17b46c4ea05eec3a8743e0f, type: 3}
-  m_ShaderKeywords: _MODE_BOTH
+  m_ShaderKeywords: _MODE_NORMAL
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -68,8 +68,8 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
-    - _Mode: 2
-    - _NormalBias: 0.6
+    - _Mode: 1
+    - _NormalBias: 0.7
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
