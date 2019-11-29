@@ -509,7 +509,7 @@ MonoBehaviour:
   rootTurningFactor: 0
   headLayer: 1
   mouthLayer: 2
-  customAnimator: {fileID: 0}
+  customAnimator: {fileID: 7256247674581845868}
   turn2DCharactersIn3DSpace: 1
   spriteChild: {fileID: 0}
   rotateSprite3D: 0

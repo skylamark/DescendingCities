@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventSystem: {fileID: 0}
   menus:
+  - {fileID: 114986408483203464}
   - {fileID: 114554027513278672}
   - {fileID: 114158646437886812}
   - {fileID: 114523411959818216}
@@ -28,7 +29,6 @@ MonoBehaviour:
   - {fileID: 114601867816074222}
   - {fileID: 114481813653167634}
   - {fileID: 114375099295591584}
-  - {fileID: 114986408483203464}
   globalDepth: 0
   pauseTexture: {fileID: 0}
   scaleTextEffects: 0
@@ -3274,6 +3274,7 @@ MonoBehaviour:
   backgroundTexture: {fileID: 2800000, guid: 5f4f3dd6223164fe49aea7eb6c0bc529, type: 3}
   visibleElements:
   - {fileID: 114029887121150804}
+  - {fileID: 0}
   transitionProgress: 0
   appearType: 7
   speechMenuType: 0
@@ -3326,7 +3327,7 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 28.56, y: 19.380001}
+  biggestElementSize: {x: 0, y: 0}
   rect:
     serializedVersion: 2
     x: 0
@@ -5923,21 +5924,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuSource: 0
-  canvas: {fileID: 0}
+  menuSource: 1
+  canvas: {fileID: 7569860031918551768, guid: d2559e48ba6d8e54eadfb817ef16fd1f, type: 3}
   canvasID: 0
   rectTransform: {fileID: 0}
-  rectTransformID: 0
-  uiTransitionType: 0
+  rectTransformID: 215956
+  uiTransitionType: 1
   uiPositionType: 0
   isLocked: 0
   id: 14
-  title: GameOverlay
-  manualSize: {x: 11.000001, y: 6.7777777}
-  positionType: 0
-  manualPosition: {x: 960, y: 540}
+  title: MiniMap
+  manualSize: {x: 14.333334, y: 25.481483}
+  positionType: 1
+  manualPosition: {x: 1782.4, y: 137.6}
   positionSmoothing: 0
-  alignment: 4
+  alignment: 2
   toggleKey: 
   ignoreMouseClicks: 0
   pauseWhenEnabled: 0
@@ -5946,14 +5947,14 @@ MonoBehaviour:
   enabledOnStart: 1
   actionListOnTurnOn: {fileID: 0}
   actionListOnTurnOff: {fileID: 0}
-  updateWhenFadeOut: 1
+  updateWhenFadeOut: 0
   hideDuringSaveScreenshots: 1
   fitWithinScreen: 1
-  backgroundTexture: {fileID: 0}
+  backgroundTexture: {fileID: 2800000, guid: 5b19be6342b0bff4b9ab68b5f889faa0, type: 3}
   visibleElements:
   - {fileID: 0}
   transitionProgress: 0
-  appearType: 0
+  appearType: 7
   speechMenuType: 0
   speechMenuLimit: 0
   limitToCharacters: 
@@ -5968,7 +5969,7 @@ MonoBehaviour:
   sizeType: 0
   autoSizeEveryFrame: 0
   orientation: 1
-  transitionType: 4
+  transitionType: 0
   panDirection: 0
   panMovement: 0
   timeCurve:
@@ -5996,20 +5997,20 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   panDistance: 0.5
-  fadeSpeed: 0
+  fadeSpeed: 1
   zoomAnchor: 4
   zoomElements: 0
   oneMenuPerSpeech: 0
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 201.6, y: 63.6}
+  biggestElementSize: {x: 265.6, y: 265.6}
   rect:
     serializedVersion: 2
-    x: 854.4
-    y: 503.4
-    width: 211.20001
-    height: 73.2
+    x: 1644.8
+    y: 0
+    width: 275.2
+    height: 275.2
   showInFilter: 1
 --- !u!114 &114990634862709718
 MonoBehaviour:
