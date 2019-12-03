@@ -327,7 +327,8 @@ public class BuildingGenerator : MonoBehaviour
 
     void AddToAvb(GameObject _obj)
     {
-        MeshRenderer mr = _obj.GetComponent<MeshRenderer>();
-        avb.renderer.Add(mr);
+        //MeshRenderer mr = _obj.GetComponent<MeshRenderer>();
+        //avb.renderer.Add(mr);
+        avb.gameObjects.Add(_obj);
     }
 }

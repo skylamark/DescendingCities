@@ -86,7 +86,7 @@ MonoBehaviour:
   directMovementPerspective: 0
   destinationAccuracy: 0.8
   experimentalAccuracy: 0
-  unityUIClicksAlwaysBlocks: 0
+  unityUIClicksAlwaysBlocks: 1
   pathfindUpdateFrequency: 0
   verticalReductionFactor: 0.7
   rotationsAffectedByVerticalReduction: 1
@@ -105,7 +105,7 @@ MonoBehaviour:
   drawDragLine: 0
   dragLineWidth: 3
   dragLineColor: {r: 1, g: 1, b: 1, a: 1}
-  offsetTouchCursor: 0
+  offsetTouchCursor: 1
   doubleTapHotspots: 1
   firstPersonTouchScreen: 1
   directTouchScreen: 0
@@ -140,7 +140,7 @@ MonoBehaviour:
   navMeshLayer: NavMesh
   backgroundImageLayer: BackgroundImage
   deactivatedLayer: Ignore Raycast
-  useLoadingScreen: 0
+  useLoadingScreen: 1
   loadingSceneIs: 0
   loadingSceneName: 
   loadingScene: 0

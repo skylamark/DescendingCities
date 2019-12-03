@@ -6,7 +6,6 @@ public class CameraFollowPlayer : MonoBehaviour
 {
     public GameObject player;
     public float offset;
-    private bool hasPlayer = false;
 
     // Start is called before the first frame update
     void Start()
