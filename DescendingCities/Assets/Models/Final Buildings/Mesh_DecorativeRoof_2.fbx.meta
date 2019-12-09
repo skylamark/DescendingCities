@@ -9,7 +9,12 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh_DecorativeRoof_2
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Building_MAT
+    second: {fileID: 2100000, guid: 8f869ec0c66d9c544b1183e2c6b2d090, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

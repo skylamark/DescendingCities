@@ -17,12 +17,12 @@ MonoBehaviour:
   customSaveFormat: MMMM dd, yyyy
   takeSaveScreenshots: 0
   useProfiles: 0
-  maxSaves: 5
+  maxSaves: 1
   orderSavesByUpdateTime: 0
-  reloadSceneWhenLoading: 0
+  reloadSceneWhenLoading: 1
   useJsonSerialization: 0
   sceneAttributes: []
-  actionListOnStart: {fileID: 0}
+  actionListOnStart: {fileID: 11400000, guid: b4187793a52460b4584bf5bb6fe42131, type: 2}
   blackOutWhenSkipping: 0
   playerSwitching: 1
   player: {fileID: 7473323771706802030, guid: 1a9f4fcb6e56cad41a2837436e2214b2, type: 3}
@@ -140,7 +140,7 @@ MonoBehaviour:
   navMeshLayer: NavMesh
   backgroundImageLayer: BackgroundImage
   deactivatedLayer: Ignore Raycast
-  useLoadingScreen: 1
+  useLoadingScreen: 0
   loadingSceneIs: 0
   loadingSceneName: 
   loadingScene: 0
@@ -159,9 +159,9 @@ MonoBehaviour:
   defaultLanguage: 0
   defaultVoiceLanguage: 0
   defaultShowSubtitles: 0
-  defaultSfxVolume: 0.585535
-  defaultMusicVolume: 0.53869194
-  defaultSpeechVolume: 0.8946975
+  defaultSfxVolume: 0.9
+  defaultMusicVolume: 0.6
+  defaultSpeechVolume: 1
   showDebugLogs: 0
   printActionCommentsInConsole: 0
   showActiveActionLists: 0

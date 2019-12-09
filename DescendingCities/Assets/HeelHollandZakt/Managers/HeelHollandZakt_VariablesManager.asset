@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: HeelHollandZakt_VariablesManager
   m_EditorClassIdentifier: 
   vars:
-  - label: Tutorial
+  - label: PlayerTutorial
     id: 0
     type: 0
-    val: 1
+    val: 0
     floatVal: 0
     textVal: 
     popUps: []
@@ -30,7 +30,115 @@ MonoBehaviour:
     popUpsLineID: -1
     description: if true then start game with tutorial.
     showInFilter: 1
-  varPresets: []
+  - label: PlayerFoundationType
+    id: 1
+    type: 4
+    val: 0
+    floatVal: 0
+    textVal: 
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 1
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 1
+  - label: PlayerBuildDate
+    id: 2
+    type: 4
+    val: 0
+    floatVal: 0
+    textVal: Onbekend
+    popUps:
+    - Onbekend
+    - Voor 1975
+    - Na 1975
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 1
+  - label: Variable 4
+    id: 3
+    type: 2
+    val: 0
+    floatVal: 0
+    textVal: 
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 1
+  varPresets:
+  - label: Development
+    ID: 1
+    presetValues:
+    - id: 0
+      val: 0
+      floatVal: 0
+      textVal: 
+      vector3Val: {x: 0, y: 0, z: 0}
+    - id: 1
+      val: 0
+      floatVal: 0
+      textVal: 
+      vector3Val: {x: 0, y: 0, z: 0}
+    - id: 2
+      val: 0
+      floatVal: 0
+      textVal: Onbekend
+      vector3Val: {x: 0, y: 0, z: 0}
+    - id: 3
+      val: 0
+      floatVal: 0
+      textVal: 
+      vector3Val: {x: 0, y: 0, z: 0}
+  - label: ReleaseSettings
+    ID: 0
+    presetValues:
+    - id: 0
+      val: 1
+      floatVal: 0
+      textVal: 
+      vector3Val: {x: 0, y: 0, z: 0}
+    - id: 1
+      val: 0
+      floatVal: 0
+      textVal: 
+      vector3Val: {x: 0, y: 0, z: 0}
+    - id: 2
+      val: 0
+      floatVal: 0
+      textVal: Onbekend
+      vector3Val: {x: 0, y: 0, z: 0}
+    - id: 3
+      val: 0
+      floatVal: 0
+      textVal: 
+      vector3Val: {x: 0, y: 0, z: 0}
   updateRuntime: 1
-  popUpLabelData: []
+  popUpLabelData:
+  - editorLabel: Type Fundering
+    id: 1
+    labels:
+    - Onbekend
+    - Op Staal
+    - Op Houten Palen
+    lineID: -1
+    canTranslate: 1
   scrollPos: {x: 0, y: 0}

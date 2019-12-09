@@ -12,6 +12,7 @@ TagManager:
   - Home
   - AVB
   - BackgroundCamera
+  - NPC
   layers:
   - Default
   - TransparentFX

@@ -5005,6 +5005,9 @@ MonoBehaviour:
   - uiButton: {fileID: 0}
     uiButtonID: 1332986
     sprite: {fileID: 0}
+  - uiButton: {fileID: 0}
+    uiButtonID: 0
+    sprite: {fileID: 0}
   textEffects: 0
   outlineSize: 2
   anchor: 4
