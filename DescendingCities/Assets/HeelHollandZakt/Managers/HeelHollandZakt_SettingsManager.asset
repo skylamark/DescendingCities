@@ -28,7 +28,7 @@ MonoBehaviour:
   player: {fileID: 7473323771706802030, guid: 1a9f4fcb6e56cad41a2837436e2214b2, type: 3}
   players: []
   movementMethod: 0
-  inputMethod: 2
+  inputMethod: 0
   interactionMethod: 0
   selectInteractions: 0
   autoHideInteractionIcons: 1
@@ -77,7 +77,7 @@ MonoBehaviour:
   walkableClickRange: 0.5
   navMeshSearchDirection: 1
   ignoreOffScreenNavMesh: 1
-  doubleClickMovement: 0
+  doubleClickMovement: 2
   magnitudeAffectsDirect: 0
   directTurnsInstantly: 0
   disableMovementWhenInterationMenusAreOpen: 0
@@ -118,9 +118,9 @@ MonoBehaviour:
   movingTurning: 3
   hotspotDetection: 1
   closeInteractionMenusIfPlayerLeavesVicinity: 0
-  placeDistantHotspotsOnSeparateLayer: 1
+  placeDistantHotspotsOnSeparateLayer: 0
   hotspotsInVicinity: 0
-  hotspotIconDisplay: 1
+  hotspotIconDisplay: 2
   hotspotIcon: 0
   hotspotIconTexture: {fileID: 0}
   hotspotIconSize: 0.04
@@ -130,7 +130,7 @@ MonoBehaviour:
   highlightProximityFactor: 4
   occludeIcons: 0
   hideIconUnderInteractionMenu: 0
-  hotspotDrawing: 1
+  hotspotDrawing: 0
   hideUnhandledHotspots: 0
   navMeshRaycastLength: 100
   hotspotRaycastLength: 100

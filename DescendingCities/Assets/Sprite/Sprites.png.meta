@@ -21,6 +21,26 @@ TextureImporter:
     21300032: Task_Complete
     21300034: Task_Available
     21300036: Task_Active
+    21300038: ICO_Help
+    21300040: ICO_Information
+    21300042: ICO_Walk
+    21300044: ICO_FastTravel
+    21300046: ICO_Conversation
+    21300048: ICO_Discussion
+    21300050: ICO_Bank
+    21300052: ICO_Inspect
+    21300054: ICO_PickUp
+    21300056: ICO_Enter
+    21300058: ICO_Exit
+    21300060: ICO_Next
+    21300062: ICO_Back
+    21300064: ICO_Accept
+    21300066: ICO_Home
+    21300068: ICO_Person
+    21300070: ICO_Municipality
+    21300072: ICO_KCAF
+    21300074: ICO_Expert_Overseer
+    21300076: ICO_Refuse
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -146,19 +166,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -105, y: 256}
-        - {x: -255, y: 117}
-        - {x: -256, y: -123}
-        - {x: -102, y: -256}
-        - {x: 110, y: -256}
-        - {x: 256, y: -111}
-        - {x: 256, y: 112}
-        - {x: 111, y: 256}
+      outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52aa2982baf72614ea4042cceae1f3b1
+      spriteID: 9a53e7df058af08489a46ea10e0ebcaa
       vertices: []
       indices: 
       edges: []
@@ -174,19 +186,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -108, y: 256}
-        - {x: -256, y: 116}
-        - {x: -256, y: -113}
-        - {x: -111, y: -256}
-        - {x: 113, y: -256}
-        - {x: 256, y: -110}
-        - {x: 256, y: 111}
-        - {x: 107, y: 256}
+      outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 953ca7441a146ca438e269ec746c8b8d
+      spriteID: 884aec804c90f994d8682847594d9e6c
       vertices: []
       indices: 
       edges: []
@@ -206,7 +210,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 867965b48439e3f48ad5acc8d3f9ee47
+      spriteID: 3547e5d0f915b61479853f7b640d1583
       vertices: []
       indices: 
       edges: []
@@ -226,7 +230,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03cc6674d5c0e174e8a2890b3566209a
+      spriteID: 3f12b5708168f1d4c80c33a2541295bb
       vertices: []
       indices: 
       edges: []
@@ -237,7 +241,7 @@ TextureImporter:
         serializedVersion: 2
         x: 512
         y: 1024
-        width: 516
+        width: 512
         height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -246,7 +250,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 724bbab11c74b1544a515d72d665d6d5
+      spriteID: ab1e06ac9c8b13a4bba3fe7ca71035e9
       vertices: []
       indices: 
       edges: []
@@ -266,7 +270,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f44fe33b3e45d34a9b7f80c74665c27
+      spriteID: 1652ef5d13c615d489f61b33ae585505
       vertices: []
       indices: 
       edges: []
@@ -286,7 +290,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cd150b71c4b76148b0e6199bfaa844c
+      spriteID: f08da4b3b084b1a4b85c0303ef820b1a
       vertices: []
       indices: 
       edges: []
@@ -306,7 +310,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 565077f50b002d842bd4a5662ccf643c
+      spriteID: 2839cb39a3f98fe46b2b9fb10e939f9c
       vertices: []
       indices: 
       edges: []
@@ -326,7 +330,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ff3f478ea4e572498eb58386bb32292
+      spriteID: 068c0c2c47f98d145b5f4bd82c7aeaea
       vertices: []
       indices: 
       edges: []
@@ -346,7 +350,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f78f9b52833ce564e93b1cc1efc2515d
+      spriteID: 74f564bebc240b049b408ef5d59e6eaf
       vertices: []
       indices: 
       edges: []
@@ -366,7 +370,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4e9a0dbd38966c43b4b18d175b055c8
+      spriteID: 494e27e45a2dd474782dad2a1e4d24e9
       vertices: []
       indices: 
       edges: []
@@ -386,7 +390,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c57e5c2b7b902a4e8be8b863bfa6b79
+      spriteID: a8c9b34f4e1144543858d67fd993ff03
       vertices: []
       indices: 
       edges: []
@@ -406,7 +410,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e3269299f6446c49b2360ad9e8f4693
+      spriteID: 61f55dbb48c5d5d4fb31849641a4eaff
       vertices: []
       indices: 
       edges: []
@@ -426,7 +430,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c588c5f2eb55d8045abc970d41ffbb3d
+      spriteID: 50fe6ffbc8806d04b91979cf0760f448
       vertices: []
       indices: 
       edges: []
@@ -440,13 +444,13 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f86d62db176e1cd43948d8338fcd210c
+      spriteID: fdd82f3c4d2f7484eb8b64c076ad8ad3
       vertices: []
       indices: 
       edges: []
@@ -460,13 +464,13 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0623ca5eb67c7442b38619606d1c9a5
+      spriteID: c750d024f082ee04996e98182e615a6d
       vertices: []
       indices: 
       edges: []
@@ -480,13 +484,13 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0beed9412d35b6748a5755792cf4676b
+      spriteID: eaf21f2c3acf73b4ba4758ceeccbff8e
       vertices: []
       indices: 
       edges: []
@@ -500,13 +504,413 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84633372ccae93542a6073c859aaebe2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_Help
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d476b837d2bf3f4d97ba1feab92dd33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_Information
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809efa3fa9abbff4d8dda79b91e7e851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_Walk
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c485caa031f9d246bf59574afac522e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_FastTravel
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 838178f850c55c84b92863b4e71d174f
+      spriteID: cdeb2e87e6941414b8916959c9c355ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_Conversation
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64255a2034eddde4b8f54b3039991655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_Discussion
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a5e6814c6a8be4e8279fd4d82ca897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_Bank
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5152b6e25dd58344bbd00136910b833e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_Inspect
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc5a0d0b0e14f2449babcfe8b1db16e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_PickUp
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3328e7bf536f0d54fac419b3e928493b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_Enter
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a276fb1919a06418c3e5c445d06967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_Exit
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad222aebbc89150448d1ff20ee7d908a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_Next
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63349bca357914469792a84bf5b8580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_Back
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67daed257f5122245af5c0036baf5cdd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_Accept
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38097e9e9c1248249a6f6b4e0aee473f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_Home
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf12f1c7b5f55b540a0b96766e282311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_Person
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7124b7e16fe051f4ab1bc47f1b2fa668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_Municipality
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de8a6b8f243f604f9e2e39b5fb07748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_KCAF
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1636a42ccb05b56468181489555efa80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_Expert_Overseer
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3986c9e4882752d40b373b44323711ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ICO_Refuse
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53c1d067e38f014b8c978dd267a07fe
       vertices: []
       indices: 
       edges: []

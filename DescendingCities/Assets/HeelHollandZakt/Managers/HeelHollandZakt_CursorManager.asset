@@ -18,7 +18,7 @@ MonoBehaviour:
   lockSystemCursor: 1
   keepCursorWithinScreen: 1
   confineSystemCursor: 0
-  allowWalkCursor: 0
+  allowWalkCursor: 1
   addWalkPrefix: 0
   walkPrefix:
     label: Walk to
@@ -115,7 +115,7 @@ MonoBehaviour:
     label: Use
     lineID: -1
     id: 0
-  - texture: {fileID: 2800000, guid: f03835de3da7f442f92582f0dd5e5863, type: 3}
+  - texture: {fileID: 2800000, guid: 58812fe41eeaee94ab5040ededfc997f, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
@@ -131,7 +131,7 @@ MonoBehaviour:
     label: Talk to
     lineID: -1
     id: 1
-  - texture: {fileID: 2800000, guid: e0394f989f329496584e377a81d4031f, type: 3}
+  - texture: {fileID: 2800000, guid: 1f5a93be7d06b654aa78f2dc6044a0ee, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
@@ -147,7 +147,55 @@ MonoBehaviour:
     label: Look at
     lineID: -1
     id: 2
-  - texture: {fileID: 0}
+  - texture: {fileID: 2800000, guid: 29b480f94b3d42340b2aaa5627f89af5, type: 3}
+    isAnimated: 0
+    numFrames: 1
+    numRows: 1
+    numCols: 1
+    size: 0.05
+    animSpeed: 4
+    endAnimOnLastFrame: 0
+    skipFirstFrameWhenLooping: 0
+    clickOffset: {x: 0, y: 0}
+    frameSpeeds: []
+    alwaysAnimate: 0
+    dontCycle: 0
+    label: Information
+    lineID: -1
+    id: 3
+  - texture: {fileID: 2800000, guid: 41cb349ab8785c24b8206dbd9e615f9d, type: 3}
+    isAnimated: 0
+    numFrames: 1
+    numRows: 1
+    numCols: 1
+    size: 0.05
+    animSpeed: 4
+    endAnimOnLastFrame: 0
+    skipFirstFrameWhenLooping: 0
+    clickOffset: {x: 0, y: 0}
+    frameSpeeds: []
+    alwaysAnimate: 0
+    dontCycle: 0
+    label: Enter
+    lineID: -1
+    id: 4
+  - texture: {fileID: 2800000, guid: 0fb69e382550f4745a5a66e790f3426b, type: 3}
+    isAnimated: 0
+    numFrames: 1
+    numRows: 1
+    numCols: 1
+    size: 0.05
+    animSpeed: 4
+    endAnimOnLastFrame: 0
+    skipFirstFrameWhenLooping: 0
+    clickOffset: {x: 0, y: 0}
+    frameSpeeds: []
+    alwaysAnimate: 0
+    dontCycle: 0
+    label: Exit
+    lineID: -1
+    id: 5
+  - texture: {fileID: 2800000, guid: 0f95c5b5603c0004dbc2a8a356530f58, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
@@ -160,10 +208,13 @@ MonoBehaviour:
     frameSpeeds: []
     alwaysAnimate: 0
     dontCycle: 0
-    label: Information
+    label: WalkTo
     lineID: -1
-    id: 3
+    id: 6
   unhandledCursorInteractions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

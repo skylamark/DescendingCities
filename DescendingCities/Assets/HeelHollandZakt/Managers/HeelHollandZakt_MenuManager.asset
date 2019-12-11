@@ -29,6 +29,7 @@ MonoBehaviour:
   - {fileID: 114601867816074222}
   - {fileID: 114481813653167634}
   - {fileID: 114375099295591584}
+  - {fileID: 114774718216291046}
   globalDepth: 0
   pauseTexture: {fileID: 0}
   scaleTextEffects: 0
@@ -4404,6 +4405,108 @@ MonoBehaviour:
   clickTexture: {fileID: 0}
   allowContinuousClick: 0
   uiSelectableHideStyle: 0
+--- !u!114 &114774718216291046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuSource: 1
+  canvas: {fileID: 0}
+  canvasID: 0
+  rectTransform: {fileID: 0}
+  rectTransformID: 0
+  uiTransitionType: 0
+  uiPositionType: 0
+  isLocked: 0
+  id: 15
+  title: ProblemBoard
+  manualSize: {x: 0.5, y: 0.8888889}
+  positionType: 0
+  manualPosition: {x: 960, y: 540}
+  positionSmoothing: 0
+  alignment: 4
+  toggleKey: 
+  ignoreMouseClicks: 0
+  pauseWhenEnabled: 1
+  showWhenPaused: 0
+  canClickInCutscene: 0
+  enabledOnStart: 0
+  actionListOnTurnOn: {fileID: 0}
+  actionListOnTurnOff: {fileID: 0}
+  updateWhenFadeOut: 1
+  hideDuringSaveScreenshots: 1
+  fitWithinScreen: 1
+  backgroundTexture: {fileID: 0}
+  visibleElements:
+  - {fileID: 114874901275373804}
+  - {fileID: 0}
+  transitionProgress: 0
+  appearType: 0
+  speechMenuType: 0
+  speechMenuLimit: 0
+  limitToCharacters: 
+  forceSubtitles: 0
+  moveWithCharacter: 1
+  selected_element: {fileID: 0}
+  selected_slot: 0
+  autoSelectFirstVisibleElement: 0
+  firstSelectedElement: 
+  elements:
+  - {fileID: 114874901275373804}
+  spacing: 0.5
+  sizeType: 0
+  autoSizeEveryFrame: 0
+  orientation: 1
+  transitionType: 4
+  panDirection: 0
+  panMovement: 0
+  timeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panDistance: 0.5
+  fadeSpeed: 0
+  zoomAnchor: 4
+  zoomElements: 0
+  oneMenuPerSpeech: 0
+  speechProximityLimit: 0
+  speechProximityDistance: 10
+  deleteUIWhenTurnOff: 0
+  biggestElementSize: {x: 0, y: 0}
+  rect:
+    serializedVersion: 2
+    x: 955.2
+    y: 535.2
+    width: 9.6
+    height: 9.6
+  showInFilter: 1
 --- !u!114 &114788874816963042
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4948,6 +5051,64 @@ MonoBehaviour:
     width: 130.2
     height: 116.399994
   showInFilter: 1
+--- !u!114 &114874901275373804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ae5c94351944600a4b0aec144476b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 0
+  title: Prikbord
+  slotSize: {x: 10, y: 5}
+  sizeType: 0
+  positionType: 0
+  slotSpacing: 0
+  lineID: -1
+  alternativeInputButton: 
+  font: {fileID: 0}
+  fontScaleFactor: 2
+  fontColor: {r: 1, g: 1, b: 1, a: 1}
+  fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
+  isVisible: 1
+  isClickable: 0
+  orientation: 1
+  gridWidth: 3
+  backgroundTexture: {fileID: 0}
+  singleSlotBackgrounds: 0
+  highlightTexture: {fileID: 0}
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  changeCursor: 0
+  cursorID: 0
+  linkedUiID: 0
+  relativeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  relativePosition: {x: 0, y: 0}
+  numSlots: 1
+  uiText: {fileID: 0}
+  label: Label
+  anchor: 4
+  textEffects: 0
+  outlineSize: 2
+  labelType: 0
+  variableID: 0
+  useCharacterColour: 0
+  autoAdjustHeight: 1
+  updateIfEmpty: 0
+  showPendingWhileMovingToHotspot: 0
+  itemPropertyID: 0
+  inventoryPropertyType: 0
+  itemSlotNumber: 0
 --- !u!114 &114876566069918098
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5257,43 +5418,43 @@ MonoBehaviour:
   uiSlots:
   - uiButton: {fileID: 0}
     uiButtonID: 1857130
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1855142
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1853254
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1850746
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1848530
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1846308
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1843542
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1802862
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1800814
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1798390
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1795704
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1792832
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1790898
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   uiPointerState: 0
   textEffects: 0
   anchor: 4

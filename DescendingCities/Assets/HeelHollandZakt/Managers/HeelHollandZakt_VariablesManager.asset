@@ -67,12 +67,12 @@ MonoBehaviour:
     popUpsLineID: -1
     description: 
     showInFilter: 1
-  - label: Variable 4
+  - label: ArrivalReason
     id: 3
     type: 2
     val: 0
     floatVal: 0
-    textVal: 
+    textVal: Onbekend
     popUps: []
     vector3Val: {x: 0, y: 0, z: 0}
     link: 0
@@ -106,7 +106,7 @@ MonoBehaviour:
     - id: 3
       val: 0
       floatVal: 0
-      textVal: 
+      textVal: Onbekend
       vector3Val: {x: 0, y: 0, z: 0}
   - label: ReleaseSettings
     ID: 0
@@ -129,7 +129,7 @@ MonoBehaviour:
     - id: 3
       val: 0
       floatVal: 0
-      textVal: 
+      textVal: Onbekend
       vector3Val: {x: 0, y: 0, z: 0}
   updateRuntime: 1
   popUpLabelData:
