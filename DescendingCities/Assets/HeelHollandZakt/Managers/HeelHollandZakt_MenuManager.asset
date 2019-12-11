@@ -5418,43 +5418,43 @@ MonoBehaviour:
   uiSlots:
   - uiButton: {fileID: 0}
     uiButtonID: 1857130
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
   - uiButton: {fileID: 0}
     uiButtonID: 1855142
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
   - uiButton: {fileID: 0}
     uiButtonID: 1853254
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
   - uiButton: {fileID: 0}
     uiButtonID: 1850746
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
   - uiButton: {fileID: 0}
     uiButtonID: 1848530
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
   - uiButton: {fileID: 0}
     uiButtonID: 1846308
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
   - uiButton: {fileID: 0}
     uiButtonID: 1843542
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
   - uiButton: {fileID: 0}
     uiButtonID: 1802862
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
   - uiButton: {fileID: 0}
     uiButtonID: 1800814
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
   - uiButton: {fileID: 0}
     uiButtonID: 1798390
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
   - uiButton: {fileID: 0}
     uiButtonID: 1795704
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
   - uiButton: {fileID: 0}
     uiButtonID: 1792832
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
   - uiButton: {fileID: 0}
     uiButtonID: 1790898
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
   uiPointerState: 0
   textEffects: 0
   anchor: 4
