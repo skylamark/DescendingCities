@@ -16,7 +16,7 @@ MonoBehaviour:
   - label: PlayerTutorial
     id: 0
     type: 0
-    val: 0
+    val: 1
     floatVal: 0
     textVal: 
     popUps: []
