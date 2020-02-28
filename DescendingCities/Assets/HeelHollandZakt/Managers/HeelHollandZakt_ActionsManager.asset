@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c43bf7c11a40f386c183fa9601d86, type: 3}
   m_Name: HeelHollandZakt_ActionsManager
   m_EditorClassIdentifier: 
-  customFolderPath: AdventureCreator/Scripts/Actions
+  customFolderPath: Scripts/ActionLists
   displayActionsInInspector: 1
   displayActionsInEditor: 1
   allowMultipleActionListWindows: 0

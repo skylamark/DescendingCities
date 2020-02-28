@@ -3472,7 +3472,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7717952976241191943
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4105,7 +4105,6 @@ GameObject:
   - component: {fileID: 1680301265301463914}
   - component: {fileID: 5741499896909542343}
   - component: {fileID: 1404862021767022118}
-  - component: {fileID: 6918116639386697843}
   m_Layer: 5
   m_Name: Arrow
   m_TagString: Untagged
@@ -4167,18 +4166,6 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
---- !u!114 &6918116639386697843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8557716457386387972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05cd6cb9a17275649a52943becd79ea6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8896094512829870035
 GameObject:
   m_ObjectHideFlags: 0

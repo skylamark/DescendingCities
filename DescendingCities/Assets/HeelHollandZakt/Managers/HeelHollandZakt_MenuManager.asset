@@ -31,7 +31,7 @@ MonoBehaviour:
   - {fileID: 114375099295591584}
   - {fileID: 114774718216291046}
   globalDepth: 0
-  pauseTexture: {fileID: 0}
+  pauseTexture: {fileID: 2800000, guid: 2de7d16b4ac4b402182d4f2ca40e0b2d, type: 3}
   scaleTextEffects: 0
   keyboardControlWhenPaused: 1
   keyboardControlWhenDialogOptions: 1
@@ -2172,7 +2172,7 @@ MonoBehaviour:
   - {fileID: 114896746632087168}
   - {fileID: 114147248762299980}
   transitionProgress: 0
-  appearType: 1
+  appearType: 0
   speechMenuType: 0
   speechMenuLimit: 0
   limitToCharacters: 
@@ -3277,7 +3277,7 @@ MonoBehaviour:
   - {fileID: 114029887121150804}
   - {fileID: 0}
   transitionProgress: 0
-  appearType: 7
+  appearType: 0
   speechMenuType: 0
   speechMenuLimit: 0
   limitToCharacters: 
@@ -5418,43 +5418,43 @@ MonoBehaviour:
   uiSlots:
   - uiButton: {fileID: 0}
     uiButtonID: 1857130
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1855142
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1853254
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1850746
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1848530
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1846308
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1843542
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1802862
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1800814
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1798390
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1795704
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1792832
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   - uiButton: {fileID: 0}
     uiButtonID: 1790898
-    sprite: {fileID: 21300000, guid: 660fa71b0b7644085ad60aa3370e41bc, type: 3}
+    sprite: {fileID: 0}
   uiPointerState: 0
   textEffects: 0
   anchor: 4
@@ -6108,7 +6108,7 @@ MonoBehaviour:
   pauseWhenEnabled: 0
   showWhenPaused: 0
   canClickInCutscene: 0
-  enabledOnStart: 1
+  enabledOnStart: 0
   actionListOnTurnOn: {fileID: 0}
   actionListOnTurnOff: {fileID: 0}
   updateWhenFadeOut: 0
@@ -6118,7 +6118,7 @@ MonoBehaviour:
   visibleElements:
   - {fileID: 0}
   transitionProgress: 0
-  appearType: 7
+  appearType: 0
   speechMenuType: 0
   speechMenuLimit: 0
   limitToCharacters: 

@@ -13,10 +13,27 @@ MonoBehaviour:
   m_Name: HeelHollandZakt_VariablesManager
   m_EditorClassIdentifier: 
   vars:
+  - label: Variable 5
+    id: 4
+    type: 4
+    val: 0
+    floatVal: 0
+    textVal: 
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 1
   - label: PlayerTutorial
     id: 0
     type: 0
-    val: 1
+    val: 0
     floatVal: 0
     textVal: 
     popUps: []
@@ -108,6 +125,11 @@ MonoBehaviour:
       floatVal: 0
       textVal: Onbekend
       vector3Val: {x: 0, y: 0, z: 0}
+    - id: 4
+      val: 0
+      floatVal: 0
+      textVal: 
+      vector3Val: {x: 0, y: 0, z: 0}
   - label: ReleaseSettings
     ID: 0
     presetValues:
@@ -130,6 +152,11 @@ MonoBehaviour:
       val: 0
       floatVal: 0
       textVal: Onbekend
+      vector3Val: {x: 0, y: 0, z: 0}
+    - id: 4
+      val: 0
+      floatVal: 0
+      textVal: 
       vector3Val: {x: 0, y: 0, z: 0}
   updateRuntime: 1
   popUpLabelData:
